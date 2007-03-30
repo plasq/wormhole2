@@ -204,10 +204,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>D12F7B370BAAA13F00730F08</string>
+						<string>D127BCC20BBDDA9700E165C0</string>
 						<key>history</key>
 						<array>
-							<string>D12F7B360BAAA13F00730F08</string>
+							<string>D12F7B370BAAA13F00730F08</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -244,10 +244,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>D12F7B380BAAA13F00730F08</string>
+						<string>D127BCC30BBDDA9700E165C0</string>
 						<key>history</key>
 						<array>
-							<string>D12F7B180BAA9FCC00730F08</string>
+							<string>D12F7B380BAAA13F00730F08</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -343,7 +343,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>57</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -384,7 +384,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WormHole15Editor.cpp</string>
+								<string>WHprefs.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -392,17 +392,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WormHole15Editor.cpp</string>
+										<string>WHprefs.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D12F7B330BAAA13F00730F08</string>
+										<string>D127BCBF0BBDDA9700E165C0</string>
 										<key>history</key>
 										<array>
 											<string>D1F897C60AD4DCF100D2E704</string>
 											<string>D12F7B0F0BAA9FCC00730F08</string>
 											<string>D12F7B300BAAA13F00730F08</string>
-											<string>D12F7B310BAAA13F00730F08</string>
+											<string>D127BCBC0BBDDA9700E165C0</string>
+											<string>D127BCBD0BBDDA9700E165C0</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -410,6 +411,7 @@
 											<string>D12F7B110BAA9FCC00730F08</string>
 											<string>D12F7B120BAA9FCC00730F08</string>
 											<string>D12F7B320BAAA13F00730F08</string>
+											<string>D127BCBE0BBDDA9700E165C0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -467,9 +469,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D12F7B140BAA9FCC00730F08</string>
+				<string>D127BCC00BBDDA9700E165C0</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D12F7B150BAA9FCC00730F08</string>
+				<string>D127BCC10BBDDA9700E165C0</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -603,11 +605,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>D12E9CE00A46F07700E7219C</string>
+		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>D12F7B160BAA9FCC00730F08</string>
 		<string>D12F7B340BAAA13F00730F08</string>
-		<string>/Users/adrianpf/Desktop/plasq_svn/Wormhole2/mac/WormHole2.xcodeproj</string>
+		<string>/Users/adrianpf/Desktop/wormhole2/mac/WormHole2.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>243 55 1353 1123 0 0 1920 1178 </string>
@@ -631,7 +633,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AEffEditor.hpp</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -689,7 +691,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D12E9CE00A46F07700E7219C</string>
-				<string>D12F7AF20BAA9DD200730F08</string>
+				<string>D127BCBA0BBDDA9500E165C0</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -820,12 +822,14 @@
 							<key>Dock</key>
 							<array>
 								<dict>
+									<key>BecomeActive</key>
+									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WormHole15Editor.cpp</string>
+										<string>WHHeaders.h</string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -846,8 +850,6 @@
 							<string>590pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -883,8 +885,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>D12F7AF30BAA9DD200730F08</string>
-				<string>D12F7AF40BAA9DD200730F08</string>
+				<string>D127BCB60BBDDA8700E165C0</string>
+				<string>D127BCB70BBDDA8700E165C0</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>

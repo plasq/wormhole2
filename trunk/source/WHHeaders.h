@@ -3,7 +3,7 @@
  *  apulVSTSDK
  *
  *  Created by Adrian Pflugshaupt on 07.01.05.
- *  Copyright 2005 apulSoft. All rights reserved.
+ *  Copyright 2005 plasq LLC. All rights reserved.
  *
  */
 
@@ -191,7 +191,7 @@ struct WHAudioPacketHeader
 	float sampleRate;
 	short channels;
 	long frames; // number of samples
-	long tick; // the WormHole sample tick, sample offset of the packet start
+	long tick; // the Wormhole sample tick, sample offset of the packet start
 };
 
 struct WHinterface

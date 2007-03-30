@@ -3,9 +3,9 @@
  *  apulVSTSDK
  *
  *  Created by Adrian Pflugshaupt on 21.02.05.
- *  Copyright 2005 apulSoft. All rights reserved.
+ *  Copyright 2005 plasq LLC. All rights reserved.
  *
- *  Class to manage preferences for WormHole2 
+ *  Class to manage preferences for Wormhole2 
  *	Uses Registry on win and CFPreferences on Mac OSx
  *
  */

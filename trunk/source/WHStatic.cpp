@@ -3,7 +3,7 @@
  *  apulVSTSDK
  *
  *  Created by Adrian Pflugshaupt on 10.02.05.
- *  Copyright 2005 apulSoft. All rights reserved.
+ *  Copyright 2005 plasq LLC. All rights reserved.
  *
  */
 

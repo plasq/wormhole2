@@ -5,7 +5,7 @@
  *  Cross-plattform machine name fetcher
  *
  *  Created by Adrian Pflugshaupt on 14.02.05.
- *  Copyright 2005 apulSoft. All rights reserved.
+ *  Copyright 2005 plasq LLC. All rights reserved.
  *
  */
 

@@ -2,7 +2,7 @@
  *  WHRingBuffer.h
  *
  *  Created by Adrian Pflugshaupt on 20.10.04.
- *  Copyright 2004 apulSoft. All rights reserved.
+ *  Copyright 2004 plasq LLC. All rights reserved.
  *
  */
  
