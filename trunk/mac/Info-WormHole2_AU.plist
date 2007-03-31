@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Wormhole2</string>
 	<key>CFBundleGetInfoString</key>
-	<string>v2.0.5 (c) plasq LLC</string>
+	<string>v2.0.6 (c) plasq LLC</string>
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
@@ -19,10 +19,10 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>v2.0.5</string>
+	<string>v2.0.6</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>2.0.5</string>
+	<string>2.0.6</string>
 </dict>
 </plist>
