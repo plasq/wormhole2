@@ -10,7 +10,7 @@ Wormhole2 lets you route audio via a network, between any computers you've got h
 Features:
 
  * Audio Unit and VST plugin for Mac OS X and VST for Windows
- * Transmits audio over TCP/IP
+ * Transmits audio over UDP
  * Super Low Latency on a LAN
  * One 44 kHz Mono Channel requires 175 kBit/sec
  * Works with any Network Interface (Ethernet, Firewire, Airport)
