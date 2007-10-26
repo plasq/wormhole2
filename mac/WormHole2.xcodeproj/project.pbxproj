@@ -1,0 +1,1400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D1C25C0C09D0617000455690 /* WH2 complete */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D1C25C1709D061B500455690 /* Build configuration list for PBXAggregateTarget "WH2 complete" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D1C25C0E09D0617D00455690 /* PBXTargetDependency */,
+				D1C25C1009D0618000455690 /* PBXTargetDependency */,
+			);
+			name = "WH2 complete";
+			productName = "WH2 complete";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D12E22B809CF6107003E3800 /* CAVectorUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D12E22B209CF6107003E3800 /* CAVectorUnit.cpp */; };
+		D1B00F1809A00FDD00071E3F /* apConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E25078EB51A0037A495 /* apConfiguration.h */; };
+		D1B00F1909A00FDD00071E3F /* WormHole15.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D1652E28078EB51A0037A495 /* WormHole15.hpp */; };
+		D1B00F1A09A00FDD00071E3F /* WHsender.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E62078EB5E10037A495 /* WHsender.h */; };
+		D1B00F1B09A00FDD00071E3F /* WHreceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E66078EB5F00037A495 /* WHreceiver.h */; };
+		D1B00F1C09A00FDD00071E3F /* WHHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E6A078EB8F60037A495 /* WHHeaders.h */; };
+		D1B00F1D09A00FDD00071E3F /* WHsocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D1110A078FEC7F00963E8C /* WHsocket.h */; };
+		D1B00F1E09A00FDD00071E3F /* WHRingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D1EE31E607940E8100F71BE3 /* WHRingBuffer.h */; };
+		D1B00F1F09A00FDD00071E3F /* WHStatic.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B0D4EF07BBA455003E3FB0 /* WHStatic.h */; };
+		D1B00F2009A00FDD00071E3F /* WHEndian.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B0D50007BBA7B5003E3FB0 /* WHEndian.h */; };
+		D1B00F2109A00FDD00071E3F /* WHgetMachineName.h in Headers */ = {isa = PBXBuildFile; fileRef = D15B211007C0B07900B10C05 /* WHgetMachineName.h */; };
+		D1B00F2209A00FDD00071E3F /* WHprefs.h in Headers */ = {isa = PBXBuildFile; fileRef = D181593C07C9E2CF005CDA3A /* WHprefs.h */; };
+		D1B00F2309A00FDD00071E3F /* WHControls.h in Headers */ = {isa = PBXBuildFile; fileRef = D181599C07C9FBAB005CDA3A /* WHControls.h */; };
+		D1B00F2409A00FDD00071E3F /* WormHole15Editor.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E2B078EB51A0037A495 /* WormHole15Editor.h */; };
+		D1B00F2C09A00FDD00071E3F /* vstgui.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26DFC0997991100DE65A1 /* vstgui.h */; };
+		D1B00F2D09A00FDD00071E3F /* vstcontrols.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26DFA0997991100DE65A1 /* vstcontrols.h */; };
+		D1B00F2F09A00FDD00071E3F /* bmp10001.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8B0998A55500B94D84 /* bmp10001.png */; };
+		D1B00F3009A00FDD00071E3F /* bmp10002.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8C0998A55500B94D84 /* bmp10002.png */; };
+		D1B00F3109A00FDD00071E3F /* bmp10003.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8D0998A55500B94D84 /* bmp10003.png */; };
+		D1B00F3209A00FDD00071E3F /* bmp10004.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8E0998A55500B94D84 /* bmp10004.png */; };
+		D1B00F3309A00FDD00071E3F /* bmp10005.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8F0998A55500B94D84 /* bmp10005.png */; };
+		D1B00F3409A00FDD00071E3F /* bmp10006.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E900998A55500B94D84 /* bmp10006.png */; };
+		D1B00F3509A00FDD00071E3F /* bmp10007.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E910998A55500B94D84 /* bmp10007.png */; };
+		D1B00F3609A00FDD00071E3F /* bmp10008.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E920998A55500B94D84 /* bmp10008.png */; };
+		D1B00F3709A00FDD00071E3F /* bmp10009.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E930998A55500B94D84 /* bmp10009.png */; };
+		D1B00F3809A00FDD00071E3F /* bmp10010.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E940998A55500B94D84 /* bmp10010.png */; };
+		D1B00F3909A00FDD00071E3F /* bmp10011.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E950998A55500B94D84 /* bmp10011.png */; };
+		D1B00F3A09A00FDD00071E3F /* bmp10013.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E960998A55500B94D84 /* bmp10013.png */; };
+		D1B00F3B09A00FDD00071E3F /* bmp10014.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E970998A55500B94D84 /* bmp10014.png */; };
+		D1B00F3D09A00FDD00071E3F /* bmp10017.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E990998A55500B94D84 /* bmp10017.png */; };
+		D1B00F3E09A00FDD00071E3F /* bmp10018.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E9A0998A55500B94D84 /* bmp10018.png */; };
+		D1B00F4209A00FDD00071E3F /* WormHole15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1652E26078EB51A0037A495 /* WormHole15.cpp */; };
+		D1B00F4409A00FDD00071E3F /* WHsender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1652E63078EB5E10037A495 /* WHsender.cpp */; };
+		D1B00F4509A00FDD00071E3F /* WHreceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1652E67078EB5F00037A495 /* WHreceiver.cpp */; };
+		D1B00F4609A00FDD00071E3F /* WHsocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D1110B078FEC7F00963E8C /* WHsocket.cpp */; };
+		D1B00F4709A00FDD00071E3F /* WHRingBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1EE31E707940E8100F71BE3 /* WHRingBuffer.cpp */; };
+		D1B00F4809A00FDD00071E3F /* WHStatic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1B0D4F007BBA455003E3FB0 /* WHStatic.cpp */; };
+		D1B00F4909A00FDD00071E3F /* WHgetMachineName.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D15B211107C0B07900B10C05 /* WHgetMachineName.cpp */; };
+		D1B00F4A09A00FDD00071E3F /* WHprefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D181593D07C9E2CF005CDA3A /* WHprefs.cpp */; };
+		D1B00F4B09A00FDD00071E3F /* WHControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D181599D07C9FBAB005CDA3A /* WHControls.cpp */; };
+		D1B00F4C09A00FDD00071E3F /* WormHole15Editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1652E2A078EB51A0037A495 /* WormHole15Editor.cpp */; };
+		D1B00F5109A00FDD00071E3F /* vstgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C26DFB0997991100DE65A1 /* vstgui.cpp */; };
+		D1B00F5209A00FDD00071E3F /* vstcontrols.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C26DF90997991100DE65A1 /* vstcontrols.cpp */; };
+		D1B00F5409A00FDD00071E3F /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DC58A03C1B53E00A82A01 /* ApplicationServices.framework */; };
+		D1B00F5509A00FDD00071E3F /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D915DE0472923F0111649E /* QuickTime.framework */; };
+		D1B00F5609A00FDD00071E3F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		D1B00F5709A00FDD00071E3F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13BD7E406A1D818008E377D /* CoreFoundation.framework */; };
+		D1B00F5809A00FDD00071E3F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BD09E306A287C5004AAF0C /* CoreServices.framework */; };
+		D1D88CD909A2358100019B9C /* aeffguieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D88CB409A2356C00019B9C /* aeffguieditor.cpp */; };
+		D1D88CDA09A2358200019B9C /* aeffguieditor.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D88CB509A2356C00019B9C /* aeffguieditor.h */; };
+		D1D88CDB09A2358300019B9C /* AEffEditor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D1D88CB309A2356C00019B9C /* AEffEditor.hpp */; };
+		D1D88CDC09A2358400019B9C /* aeffectx.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D88CB209A2356C00019B9C /* aeffectx.h */; };
+		D1D88CDD09A2358400019B9C /* AEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D88CB109A2356C00019B9C /* AEffect.h */; };
+		D1D88CDE09A2358500019B9C /* AudioEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D88CB609A2356C00019B9C /* AudioEffect.cpp */; };
+		D1D88CDF09A2358600019B9C /* AudioEffect.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D1D88CB709A2356C00019B9C /* AudioEffect.hpp */; };
+		D1D88CE009A2358600019B9C /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D88CB809A2356C00019B9C /* audioeffectx.cpp */; };
+		D1D88CE109A2358700019B9C /* audioeffectx.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D88CB909A2356C00019B9C /* audioeffectx.h */; };
+		D1D88CE209A2358800019B9C /* vstfxstore.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D88CBA09A2356C00019B9C /* vstfxstore.h */; };
+		D1D88D2D09A23B9400019B9C /* WormHole15main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1652E2C078EB51A0037A495 /* WormHole15main.cpp */; };
+		D1E9A1C809CDAA1800E53766 /* CAStreamBasicDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895B2506A1992700416FD9 /* CAStreamBasicDescription.h */; };
+		D1E9A1C909CDAA1800E53766 /* CAHostTimeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895B1206A1992700416FD9 /* CAHostTimeBase.h */; };
+		D1E9A1CA09CDAA1800E53766 /* CAGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895B0D06A1992700416FD9 /* CAGuard.h */; };
+		D1E9A1CB09CDAA1800E53766 /* CAAudioChannelLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895ADF06A1992700416FD9 /* CAAudioChannelLayout.h */; };
+		D1E9A1CC09CDAA1800E53766 /* ComponentBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A6806A1990E00416FD9 /* ComponentBase.h */; };
+		D1E9A1CD09CDAA1800E53766 /* CarbonEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A7406A1990E00416FD9 /* CarbonEventHandler.h */; };
+		D1E9A1CE09CDAA1800E53766 /* AUDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A5F06A1990E00416FD9 /* AUDispatch.h */; };
+		D1E9A1CF09CDAA1800E53766 /* AUScopeElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A6606A1990E00416FD9 /* AUScopeElement.h */; };
+		D1E9A1D009CDAA1800E53766 /* AUOutputElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A6306A1990E00416FD9 /* AUOutputElement.h */; };
+		D1E9A1D109CDAA1800E53766 /* AUDebugDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A8906A1990E00416FD9 /* AUDebugDispatcher.h */; };
+		D1E9A1D209CDAA1800E53766 /* AUBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A5D06A1990E00416FD9 /* AUBase.h */; };
+		D1E9A1D309CDAA1800E53766 /* AUBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A8706A1990E00416FD9 /* AUBuffer.h */; };
+		D1E9A1D409CDAA1800E53766 /* AUCarbonViewBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A6B06A1990E00416FD9 /* AUCarbonViewBase.h */; };
+		D1E9A1D509CDAA1800E53766 /* AUInputElement.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A6106A1990E00416FD9 /* AUInputElement.h */; };
+		D1E9A1D609CDAA1800E53766 /* CAAUParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = D120115E06CD0533009765A7 /* CAAUParameter.h */; };
+		D1E9A1D709CDAA1800E53766 /* AUViewLocalizedStringKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = D120115606CD0508009765A7 /* AUViewLocalizedStringKeys.h */; };
+		D1E9A1D909CDAA1800E53766 /* AUCarbonViewControl.h in Headers */ = {isa = PBXBuildFile; fileRef = D1895A6D06A1990E00416FD9 /* AUCarbonViewControl.h */; };
+		D1E9A1DA09CDAA1800E53766 /* WHprefs.h in Headers */ = {isa = PBXBuildFile; fileRef = D181593C07C9E2CF005CDA3A /* WHprefs.h */; };
+		D1E9A1DB09CDAA1800E53766 /* WHStatic.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B0D4EF07BBA455003E3FB0 /* WHStatic.h */; };
+		D1E9A1DC09CDAA1800E53766 /* WHsocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D1110A078FEC7F00963E8C /* WHsocket.h */; };
+		D1E9A1DD09CDAA1800E53766 /* WHEndian.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B0D50007BBA7B5003E3FB0 /* WHEndian.h */; };
+		D1E9A1DE09CDAA1800E53766 /* WHRingBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D1EE31E607940E8100F71BE3 /* WHRingBuffer.h */; };
+		D1E9A1DF09CDAA1800E53766 /* WormHole15Editor.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E2B078EB51A0037A495 /* WormHole15Editor.h */; };
+		D1E9A1E009CDAA1800E53766 /* apConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E25078EB51A0037A495 /* apConfiguration.h */; };
+		D1E9A1E109CDAA1800E53766 /* WormHole15.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D1652E28078EB51A0037A495 /* WormHole15.hpp */; };
+		D1E9A1E209CDAA1800E53766 /* WHreceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E66078EB5F00037A495 /* WHreceiver.h */; };
+		D1E9A1E309CDAA1800E53766 /* WHsender.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E62078EB5E10037A495 /* WHsender.h */; };
+		D1E9A1E409CDAA1800E53766 /* WHHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = D1652E6A078EB8F60037A495 /* WHHeaders.h */; };
+		D1E9A1E509CDAA1800E53766 /* aeffguieditor.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26DB4099798A700DE65A1 /* aeffguieditor.h */; };
+		D1E9A1E609CDAA1800E53766 /* audioeffectx.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26DB6099798A700DE65A1 /* audioeffectx.h */; };
+		D1E9A1E709CDAA1800E53766 /* vstplugsmacho_au.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26DB7099798A700DE65A1 /* vstplugsmacho_au.h */; };
+		D1E9A1E809CDAA1800E53766 /* vstcontrols.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26DFA0997991100DE65A1 /* vstcontrols.h */; };
+		D1E9A1E909CDAA1800E53766 /* vstgui.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26DFC0997991100DE65A1 /* vstgui.h */; };
+		D1E9A1EA09CDAA1800E53766 /* vstplugscarbon.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26DFE0997991100DE65A1 /* vstplugscarbon.h */; };
+		D1E9A1EB09CDAA1800E53766 /* vstplugsmac.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26DFF0997991100DE65A1 /* vstplugsmac.h */; };
+		D1E9A1EC09CDAA1800E53766 /* vstplugsmacho.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C26E000997991100DE65A1 /* vstplugsmacho.h */; };
+		D1E9A1EE09CDAA1800E53766 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D1C26E480997993B00DE65A1 /* Icon.icns */; };
+		D1E9A1EF09CDAA1800E53766 /* bmp10001.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8B0998A55500B94D84 /* bmp10001.png */; };
+		D1E9A1F009CDAA1800E53766 /* bmp10002.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8C0998A55500B94D84 /* bmp10002.png */; };
+		D1E9A1F109CDAA1800E53766 /* bmp10003.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8D0998A55500B94D84 /* bmp10003.png */; };
+		D1E9A1F209CDAA1800E53766 /* bmp10004.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8E0998A55500B94D84 /* bmp10004.png */; };
+		D1E9A1F309CDAA1800E53766 /* bmp10005.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E8F0998A55500B94D84 /* bmp10005.png */; };
+		D1E9A1F409CDAA1800E53766 /* bmp10006.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E900998A55500B94D84 /* bmp10006.png */; };
+		D1E9A1F509CDAA1800E53766 /* bmp10007.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E910998A55500B94D84 /* bmp10007.png */; };
+		D1E9A1F609CDAA1800E53766 /* bmp10008.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E920998A55500B94D84 /* bmp10008.png */; };
+		D1E9A1F709CDAA1800E53766 /* bmp10009.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E930998A55500B94D84 /* bmp10009.png */; };
+		D1E9A1F809CDAA1800E53766 /* bmp10010.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E940998A55500B94D84 /* bmp10010.png */; };
+		D1E9A1F909CDAA1800E53766 /* bmp10011.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E950998A55500B94D84 /* bmp10011.png */; };
+		D1E9A1FA09CDAA1800E53766 /* bmp10013.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E960998A55500B94D84 /* bmp10013.png */; };
+		D1E9A1FB09CDAA1800E53766 /* bmp10014.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E970998A55500B94D84 /* bmp10014.png */; };
+		D1E9A1FD09CDAA1800E53766 /* bmp10017.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E990998A55500B94D84 /* bmp10017.png */; };
+		D1E9A1FE09CDAA1800E53766 /* bmp10018.png in Resources */ = {isa = PBXBuildFile; fileRef = D1057E9A0998A55500B94D84 /* bmp10018.png */; };
+		D1E9A20209CDAA1800E53766 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895B2406A1992700416FD9 /* CAStreamBasicDescription.cpp */; };
+		D1E9A20309CDAA1800E53766 /* CAHostTimeBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895B1106A1992700416FD9 /* CAHostTimeBase.cpp */; };
+		D1E9A20409CDAA1800E53766 /* CAGuard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895B0C06A1992700416FD9 /* CAGuard.cpp */; };
+		D1E9A20509CDAA1800E53766 /* CAAudioChannelLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895ADE06A1992700416FD9 /* CAAudioChannelLayout.cpp */; };
+		D1E9A20609CDAA1800E53766 /* ComponentBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A6706A1990E00416FD9 /* ComponentBase.cpp */; };
+		D1E9A20709CDAA1800E53766 /* CarbonEventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A7306A1990E00416FD9 /* CarbonEventHandler.cpp */; };
+		D1E9A20809CDAA1800E53766 /* AUDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A5E06A1990E00416FD9 /* AUDispatch.cpp */; };
+		D1E9A20909CDAA1800E53766 /* AUScopeElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A6506A1990E00416FD9 /* AUScopeElement.cpp */; };
+		D1E9A20A09CDAA1800E53766 /* AUOutputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A6206A1990E00416FD9 /* AUOutputElement.cpp */; };
+		D1E9A20B09CDAA1800E53766 /* AUDebugDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A8806A1990E00416FD9 /* AUDebugDispatcher.cpp */; };
+		D1E9A20C09CDAA1800E53766 /* AUBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A5C06A1990E00416FD9 /* AUBase.cpp */; };
+		D1E9A20D09CDAA1800E53766 /* AUBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A8606A1990E00416FD9 /* AUBuffer.cpp */; };
+		D1E9A20E09CDAA1800E53766 /* AUCarbonViewBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A6A06A1990E00416FD9 /* AUCarbonViewBase.cpp */; };
+		D1E9A20F09CDAA1800E53766 /* AUCarbonViewDispatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A6E06A1990E00416FD9 /* AUCarbonViewDispatch.cpp */; };
+		D1E9A21009CDAA1800E53766 /* AUInputElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A6006A1990E00416FD9 /* AUInputElement.cpp */; };
+		D1E9A21109CDAA1800E53766 /* CAAUParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D120115D06CD0533009765A7 /* CAAUParameter.cpp */; };
+		D1E9A21209CDAA1800E53766 /* CAMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D12011D506CD08CA009765A7 /* CAMutex.cpp */; };
+		D1E9A21309CDAA1800E53766 /* AUCarbonViewControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1895A6C06A1990E00416FD9 /* AUCarbonViewControl.cpp */; };
+		D1E9A21509CDAA1800E53766 /* WHsocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1D1110B078FEC7F00963E8C /* WHsocket.cpp */; };
+		D1E9A21609CDAA1800E53766 /* WormHole15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1652E26078EB51A0037A495 /* WormHole15.cpp */; };
+		D1E9A21709CDAA1800E53766 /* WHreceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1652E67078EB5F00037A495 /* WHreceiver.cpp */; };
+		D1E9A21809CDAA1800E53766 /* WormHole15Editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1652E2A078EB51A0037A495 /* WormHole15Editor.cpp */; };
+		D1E9A21909CDAA1800E53766 /* WHprefs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D181593D07C9E2CF005CDA3A /* WHprefs.cpp */; };
+		D1E9A21A09CDAA1800E53766 /* WHsender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1652E63078EB5E10037A495 /* WHsender.cpp */; };
+		D1E9A21B09CDAA1800E53766 /* WHStatic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1B0D4F007BBA455003E3FB0 /* WHStatic.cpp */; };
+		D1E9A21C09CDAA1800E53766 /* WHRingBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1EE31E707940E8100F71BE3 /* WHRingBuffer.cpp */; };
+		D1E9A21D09CDAA1800E53766 /* WHControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D181599D07C9FBAB005CDA3A /* WHControls.cpp */; };
+		D1E9A21E09CDAA1800E53766 /* aeffguieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C26DB3099798A700DE65A1 /* aeffguieditor.cpp */; };
+		D1E9A21F09CDAA1800E53766 /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C26DB5099798A700DE65A1 /* audioeffectx.cpp */; };
+		D1E9A22009CDAA1800E53766 /* vstcontrols.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C26DF90997991100DE65A1 /* vstcontrols.cpp */; };
+		D1E9A22109CDAA1800E53766 /* vstgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D1C26DFB0997991100DE65A1 /* vstgui.cpp */; };
+		D1E9A22309CDAA1800E53766 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DC58A03C1B53E00A82A01 /* ApplicationServices.framework */; };
+		D1E9A22409CDAA1800E53766 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D915DE0472923F0111649E /* QuickTime.framework */; };
+		D1E9A22509CDAA1800E53766 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */; };
+		D1E9A22609CDAA1800E53766 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13BD7D506A1D80C008E377D /* CoreAudio.framework */; };
+		D1E9A22709CDAA1800E53766 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BD09D306A287AE004AAF0C /* AudioToolbox.framework */; };
+		D1E9A22809CDAA1800E53766 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13BD79C06A1D7F3008E377D /* AudioUnit.framework */; };
+		D1E9A22909CDAA1800E53766 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BD09E306A287C5004AAF0C /* CoreServices.framework */; };
+		D1E9A22A09CDAA1800E53766 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13BD7E406A1D818008E377D /* CoreFoundation.framework */; };
+		D1E9A22C09CDAA1800E53766 /* WormHole15.r in Rez */ = {isa = PBXBuildFile; fileRef = D1652E29078EB51A0037A495 /* WormHole15.r */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		D1B00F6709A00FDD00071E3F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.3_3;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		D1E9A23409CDAA1800E53766 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.3_3;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		D1C25C0D09D0617D00455690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1E9A1C609CDAA1800E53766;
+			remoteInfo = "WormHole2(AU)";
+		};
+		D1C25C0F09D0618000455690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1B00F1609A00FDD00071E3F;
+			remoteInfo = "WormHole2(VST)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		D1057E8B0998A55500B94D84 /* bmp10001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10001.png; path = ../resource/bmp10001.png; sourceTree = SOURCE_ROOT; };
+		D1057E8C0998A55500B94D84 /* bmp10002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10002.png; path = ../resource/bmp10002.png; sourceTree = SOURCE_ROOT; };
+		D1057E8D0998A55500B94D84 /* bmp10003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10003.png; path = ../resource/bmp10003.png; sourceTree = SOURCE_ROOT; };
+		D1057E8E0998A55500B94D84 /* bmp10004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10004.png; path = ../resource/bmp10004.png; sourceTree = SOURCE_ROOT; };
+		D1057E8F0998A55500B94D84 /* bmp10005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10005.png; path = ../resource/bmp10005.png; sourceTree = SOURCE_ROOT; };
+		D1057E900998A55500B94D84 /* bmp10006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10006.png; path = ../resource/bmp10006.png; sourceTree = SOURCE_ROOT; };
+		D1057E910998A55500B94D84 /* bmp10007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10007.png; path = ../resource/bmp10007.png; sourceTree = SOURCE_ROOT; };
+		D1057E920998A55500B94D84 /* bmp10008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10008.png; path = ../resource/bmp10008.png; sourceTree = SOURCE_ROOT; };
+		D1057E930998A55500B94D84 /* bmp10009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10009.png; path = ../resource/bmp10009.png; sourceTree = SOURCE_ROOT; };
+		D1057E940998A55500B94D84 /* bmp10010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10010.png; path = ../resource/bmp10010.png; sourceTree = SOURCE_ROOT; };
+		D1057E950998A55500B94D84 /* bmp10011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10011.png; path = ../resource/bmp10011.png; sourceTree = SOURCE_ROOT; };
+		D1057E960998A55500B94D84 /* bmp10013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10013.png; path = ../resource/bmp10013.png; sourceTree = SOURCE_ROOT; };
+		D1057E970998A55500B94D84 /* bmp10014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10014.png; path = ../resource/bmp10014.png; sourceTree = SOURCE_ROOT; };
+		D1057E990998A55500B94D84 /* bmp10017.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10017.png; path = ../resource/bmp10017.png; sourceTree = SOURCE_ROOT; };
+		D1057E9A0998A55500B94D84 /* bmp10018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bmp10018.png; path = ../resource/bmp10018.png; sourceTree = SOURCE_ROOT; };
+		D120115606CD0508009765A7 /* AUViewLocalizedStringKeys.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUViewLocalizedStringKeys.h; sourceTree = "<group>"; };
+		D120115D06CD0533009765A7 /* CAAUParameter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAUParameter.cpp; sourceTree = "<group>"; };
+		D120115E06CD0533009765A7 /* CAAUParameter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAUParameter.h; sourceTree = "<group>"; };
+		D120116B06CD0541009765A7 /* CAAUPresetFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAUPresetFile.h; sourceTree = "<group>"; };
+		D120116C06CD0541009765A7 /* CAAUPresetFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAUPresetFile.cpp; sourceTree = "<group>"; };
+		D12011D506CD08CA009765A7 /* CAMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAMutex.cpp; sourceTree = "<group>"; };
+		D12011D606CD08CA009765A7 /* CAMutex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAMutex.h; sourceTree = "<group>"; };
+		D12E22B209CF6107003E3800 /* CAVectorUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAVectorUnit.cpp; sourceTree = "<group>"; };
+		D12E22B309CF6107003E3800 /* CAVectorUnit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAVectorUnit.h; sourceTree = "<group>"; };
+		D12E22B409CF6107003E3800 /* CAVectorUnitTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAVectorUnitTypes.h; sourceTree = "<group>"; };
+		D13BD79C06A1D7F3008E377D /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		D13BD7D506A1D80C008E377D /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		D13BD7E406A1D818008E377D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		D15B211007C0B07900B10C05 /* WHgetMachineName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHgetMachineName.h; sourceTree = "<group>"; };
+		D15B211107C0B07900B10C05 /* WHgetMachineName.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WHgetMachineName.cpp; sourceTree = "<group>"; };
+		D1652E25078EB51A0037A495 /* apConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = apConfiguration.h; sourceTree = "<group>"; };
+		D1652E26078EB51A0037A495 /* WormHole15.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = WormHole15.cpp; sourceTree = "<group>"; };
+		D1652E27078EB51A0037A495 /* WormHole15.exp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.exports; path = WormHole15.exp; sourceTree = "<group>"; };
+		D1652E28078EB51A0037A495 /* WormHole15.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; path = WormHole15.hpp; sourceTree = "<group>"; };
+		D1652E29078EB51A0037A495 /* WormHole15.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = WormHole15.r; sourceTree = "<group>"; };
+		D1652E2A078EB51A0037A495 /* WormHole15Editor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = WormHole15Editor.cpp; sourceTree = "<group>"; };
+		D1652E2B078EB51A0037A495 /* WormHole15Editor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = WormHole15Editor.h; sourceTree = "<group>"; };
+		D1652E2C078EB51A0037A495 /* WormHole15main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = WormHole15main.cpp; sourceTree = "<group>"; };
+		D1652E62078EB5E10037A495 /* WHsender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHsender.h; sourceTree = "<group>"; };
+		D1652E63078EB5E10037A495 /* WHsender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WHsender.cpp; sourceTree = "<group>"; };
+		D1652E66078EB5F00037A495 /* WHreceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHreceiver.h; sourceTree = "<group>"; };
+		D1652E67078EB5F00037A495 /* WHreceiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WHreceiver.cpp; sourceTree = "<group>"; };
+		D1652E6A078EB8F60037A495 /* WHHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHHeaders.h; sourceTree = "<group>"; };
+		D181593C07C9E2CF005CDA3A /* WHprefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHprefs.h; sourceTree = "<group>"; };
+		D181593D07C9E2CF005CDA3A /* WHprefs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WHprefs.cpp; sourceTree = "<group>"; };
+		D181599C07C9FBAB005CDA3A /* WHControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHControls.h; sourceTree = "<group>"; };
+		D181599D07C9FBAB005CDA3A /* WHControls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WHControls.cpp; sourceTree = "<group>"; };
+		D1895A5C06A1990E00416FD9 /* AUBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUBase.cpp; sourceTree = "<group>"; };
+		D1895A5D06A1990E00416FD9 /* AUBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUBase.h; sourceTree = "<group>"; };
+		D1895A5E06A1990E00416FD9 /* AUDispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUDispatch.cpp; sourceTree = "<group>"; };
+		D1895A5F06A1990E00416FD9 /* AUDispatch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUDispatch.h; sourceTree = "<group>"; };
+		D1895A6006A1990E00416FD9 /* AUInputElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUInputElement.cpp; sourceTree = "<group>"; };
+		D1895A6106A1990E00416FD9 /* AUInputElement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUInputElement.h; sourceTree = "<group>"; };
+		D1895A6206A1990E00416FD9 /* AUOutputElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUOutputElement.cpp; sourceTree = "<group>"; };
+		D1895A6306A1990E00416FD9 /* AUOutputElement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUOutputElement.h; sourceTree = "<group>"; };
+		D1895A6406A1990E00416FD9 /* AUResources.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; path = AUResources.r; sourceTree = "<group>"; };
+		D1895A6506A1990E00416FD9 /* AUScopeElement.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUScopeElement.cpp; sourceTree = "<group>"; };
+		D1895A6606A1990E00416FD9 /* AUScopeElement.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUScopeElement.h; sourceTree = "<group>"; };
+		D1895A6706A1990E00416FD9 /* ComponentBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ComponentBase.cpp; sourceTree = "<group>"; };
+		D1895A6806A1990E00416FD9 /* ComponentBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ComponentBase.h; sourceTree = "<group>"; };
+		D1895A6A06A1990E00416FD9 /* AUCarbonViewBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUCarbonViewBase.cpp; sourceTree = "<group>"; };
+		D1895A6B06A1990E00416FD9 /* AUCarbonViewBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUCarbonViewBase.h; sourceTree = "<group>"; };
+		D1895A6C06A1990E00416FD9 /* AUCarbonViewControl.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUCarbonViewControl.cpp; sourceTree = "<group>"; };
+		D1895A6D06A1990E00416FD9 /* AUCarbonViewControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUCarbonViewControl.h; sourceTree = "<group>"; };
+		D1895A6E06A1990E00416FD9 /* AUCarbonViewDispatch.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUCarbonViewDispatch.cpp; sourceTree = "<group>"; };
+		D1895A6F06A1990E00416FD9 /* AUControlGroup.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUControlGroup.cpp; sourceTree = "<group>"; };
+		D1895A7006A1990E00416FD9 /* AUControlGroup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUControlGroup.h; sourceTree = "<group>"; };
+		D1895A7306A1990E00416FD9 /* CarbonEventHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CarbonEventHandler.cpp; sourceTree = "<group>"; };
+		D1895A7406A1990E00416FD9 /* CarbonEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CarbonEventHandler.h; sourceTree = "<group>"; };
+		D1895A7606A1990E00416FD9 /* AUEffectBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUEffectBase.cpp; sourceTree = "<group>"; };
+		D1895A7706A1990E00416FD9 /* AUEffectBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUEffectBase.h; sourceTree = "<group>"; };
+		D1895A7806A1990E00416FD9 /* AUInlineEffectBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUInlineEffectBase.cpp; sourceTree = "<group>"; };
+		D1895A7906A1990E00416FD9 /* AUInlineEffectBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUInlineEffectBase.h; sourceTree = "<group>"; };
+		D1895A7A06A1990E00416FD9 /* AUMIDIBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUMIDIBase.cpp; sourceTree = "<group>"; };
+		D1895A7B06A1990E00416FD9 /* AUMIDIBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUMIDIBase.h; sourceTree = "<group>"; };
+		D1895A7C06A1990E00416FD9 /* AUMIDIEffectBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUMIDIEffectBase.cpp; sourceTree = "<group>"; };
+		D1895A7D06A1990E00416FD9 /* AUMIDIEffectBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUMIDIEffectBase.h; sourceTree = "<group>"; };
+		D1895A7E06A1990E00416FD9 /* AUOutputBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUOutputBase.cpp; sourceTree = "<group>"; };
+		D1895A7F06A1990E00416FD9 /* AUOutputBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUOutputBase.h; sourceTree = "<group>"; };
+		D1895A8306A1990E00416FD9 /* MusicDeviceBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MusicDeviceBase.cpp; sourceTree = "<group>"; };
+		D1895A8406A1990E00416FD9 /* MusicDeviceBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MusicDeviceBase.h; sourceTree = "<group>"; };
+		D1895A8606A1990E00416FD9 /* AUBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUBuffer.cpp; sourceTree = "<group>"; };
+		D1895A8706A1990E00416FD9 /* AUBuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUBuffer.h; sourceTree = "<group>"; };
+		D1895A8806A1990E00416FD9 /* AUDebugDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AUDebugDispatcher.cpp; sourceTree = "<group>"; };
+		D1895A8906A1990E00416FD9 /* AUDebugDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUDebugDispatcher.h; sourceTree = "<group>"; };
+		D1895A8A06A1990E00416FD9 /* AUInputFormatConverter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUInputFormatConverter.h; sourceTree = "<group>"; };
+		D1895A8B06A1990E00416FD9 /* AUSilentTimeout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUSilentTimeout.h; sourceTree = "<group>"; };
+		D1895A8C06A1990E00416FD9 /* AUTimestampGenerator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AUTimestampGenerator.h; sourceTree = "<group>"; };
+		D1895AD506A1992700416FD9 /* AudioFilePlay.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AudioFilePlay.h; sourceTree = "<group>"; };
+		D1895AD706A1992700416FD9 /* AudioFileData.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AudioFileData.cpp; sourceTree = "<group>"; };
+		D1895AD806A1992700416FD9 /* AudioFilePlay.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AudioFilePlay.cpp; sourceTree = "<group>"; };
+		D1895AD906A1992700416FD9 /* AudioFilePlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AudioFilePlayer.cpp; sourceTree = "<group>"; };
+		D1895ADA06A1992700416FD9 /* AudioFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AudioFilePlayer.h; sourceTree = "<group>"; };
+		D1895ADB06A1992700416FD9 /* AudioFileReaderThread.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AudioFileReaderThread.cpp; sourceTree = "<group>"; };
+		D1895ADC06A1992700416FD9 /* CAAudioBufferList.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioBufferList.cp; sourceTree = "<group>"; };
+		D1895ADD06A1992700416FD9 /* CAAudioBufferList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioBufferList.h; sourceTree = "<group>"; };
+		D1895ADE06A1992700416FD9 /* CAAudioChannelLayout.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayout.cpp; sourceTree = "<group>"; };
+		D1895ADF06A1992700416FD9 /* CAAudioChannelLayout.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioChannelLayout.h; sourceTree = "<group>"; };
+		D1895AE006A1992700416FD9 /* CAAudioChannelLayoutObject.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioChannelLayoutObject.cpp; sourceTree = "<group>"; };
+		D1895AE106A1992700416FD9 /* CAAudioHardwareDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioHardwareDevice.cpp; sourceTree = "<group>"; };
+		D1895AE206A1992700416FD9 /* CAAudioHardwareDevice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioHardwareDevice.h; sourceTree = "<group>"; };
+		D1895AE306A1992700416FD9 /* CAAudioHardwareStream.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioHardwareStream.cpp; sourceTree = "<group>"; };
+		D1895AE406A1992700416FD9 /* CAAudioHardwareStream.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioHardwareStream.h; sourceTree = "<group>"; };
+		D1895AE506A1992700416FD9 /* CAAudioHardwareSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioHardwareSystem.cpp; sourceTree = "<group>"; };
+		D1895AE606A1992700416FD9 /* CAAudioHardwareSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioHardwareSystem.h; sourceTree = "<group>"; };
+		D1895AE706A1992700416FD9 /* CAAudioStreamBasicDesc.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioStreamBasicDesc.cpp; sourceTree = "<group>"; };
+		D1895AE806A1992700416FD9 /* CAAudioStreamBasicDesc.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioStreamBasicDesc.h; sourceTree = "<group>"; };
+		D1895AE906A1992700416FD9 /* CAAudioTimeStamp.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioTimeStamp.cp; sourceTree = "<group>"; };
+		D1895AEA06A1992700416FD9 /* CAAudioTimeStamp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioTimeStamp.h; sourceTree = "<group>"; };
+		D1895AEB06A1992700416FD9 /* CAAudioUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAAudioUnit.cpp; sourceTree = "<group>"; };
+		D1895AEC06A1992700416FD9 /* CAAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioUnit.h; sourceTree = "<group>"; };
+		D1895AED06A1992700416FD9 /* CAAudioValueRange.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAudioValueRange.h; sourceTree = "<group>"; };
+		D1895AEE06A1992700416FD9 /* CAAutoDisposer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAAutoDisposer.h; sourceTree = "<group>"; };
+		D1895AEF06A1992700416FD9 /* CABufferList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CABufferList.cpp; sourceTree = "<group>"; };
+		D1895AF006A1992700416FD9 /* CABufferList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CABufferList.h; sourceTree = "<group>"; };
+		D1895AF106A1992700416FD9 /* CACFArray.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CACFArray.cpp; sourceTree = "<group>"; };
+		D1895AF206A1992700416FD9 /* CACFArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFArray.h; sourceTree = "<group>"; };
+		D1895AF306A1992700416FD9 /* CACFData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFData.h; sourceTree = "<group>"; };
+		D1895AF406A1992700416FD9 /* CACFDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CACFDictionary.cpp; sourceTree = "<group>"; };
+		D1895AF506A1992700416FD9 /* CACFDictionary.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFDictionary.h; sourceTree = "<group>"; };
+		D1895AF606A1992700416FD9 /* CACFMachPort.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CACFMachPort.cp; sourceTree = "<group>"; };
+		D1895AF706A1992700416FD9 /* CACFMachPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFMachPort.h; sourceTree = "<group>"; };
+		D1895AF806A1992700416FD9 /* CACFMessagePort.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CACFMessagePort.cpp; sourceTree = "<group>"; };
+		D1895AF906A1992700416FD9 /* CACFMessagePort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFMessagePort.h; sourceTree = "<group>"; };
+		D1895AFA06A1992700416FD9 /* CACFNumber.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CACFNumber.cp; sourceTree = "<group>"; };
+		D1895AFB06A1992700416FD9 /* CACFNumber.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFNumber.h; sourceTree = "<group>"; };
+		D1895AFC06A1992700416FD9 /* CACFObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFObject.h; sourceTree = "<group>"; };
+		D1895AFD06A1992700416FD9 /* CACFRunLoopTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CACFRunLoopTimer.cpp; sourceTree = "<group>"; };
+		D1895AFE06A1992700416FD9 /* CACFRunLoopTimer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFRunLoopTimer.h; sourceTree = "<group>"; };
+		D1895AFF06A1992700416FD9 /* CACFString.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CACFString.cp; sourceTree = "<group>"; };
+		D1895B0006A1992700416FD9 /* CACFString.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CACFString.h; sourceTree = "<group>"; };
+		D1895B0106A1992700416FD9 /* CAComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAComponent.cpp; sourceTree = "<group>"; };
+		D1895B0206A1992700416FD9 /* CAComponent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAComponent.h; sourceTree = "<group>"; };
+		D1895B0306A1992700416FD9 /* CAComponentDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAComponentDescription.cpp; sourceTree = "<group>"; };
+		D1895B0406A1992700416FD9 /* CAComponentDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAComponentDescription.h; sourceTree = "<group>"; };
+		D1895B0506A1992700416FD9 /* CAConditionalMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAConditionalMacros.h; sourceTree = "<group>"; };
+		D1895B0606A1992700416FD9 /* CADebugger.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugger.cp; sourceTree = "<group>"; };
+		D1895B0706A1992700416FD9 /* CADebugger.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CADebugger.h; sourceTree = "<group>"; };
+		D1895B0806A1992700416FD9 /* CADebugMacros.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cp; sourceTree = "<group>"; };
+		D1895B0906A1992700416FD9 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		D1895B0A06A1992700416FD9 /* CADebugPrintf.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CADebugPrintf.h; sourceTree = "<group>"; };
+		D1895B0B06A1992700416FD9 /* CAException.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAException.h; sourceTree = "<group>"; };
+		D1895B0C06A1992700416FD9 /* CAGuard.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAGuard.cpp; sourceTree = "<group>"; };
+		D1895B0D06A1992700416FD9 /* CAGuard.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAGuard.h; sourceTree = "<group>"; };
+		D1895B0E06A1992700416FD9 /* CAHALIOCycleTelemetryClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAHALIOCycleTelemetryClient.cpp; sourceTree = "<group>"; };
+		D1895B0F06A1992700416FD9 /* CAHALIOCycleTelemetryClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAHALIOCycleTelemetryClient.h; sourceTree = "<group>"; };
+		D1895B1006A1992700416FD9 /* CAHALTelemetry.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAHALTelemetry.h; sourceTree = "<group>"; };
+		D1895B1106A1992700416FD9 /* CAHostTimeBase.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAHostTimeBase.cpp; sourceTree = "<group>"; };
+		D1895B1206A1992700416FD9 /* CAHostTimeBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAHostTimeBase.h; sourceTree = "<group>"; };
+		D1895B1306A1992700416FD9 /* CAIOObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAIOObject.h; sourceTree = "<group>"; };
+		D1895B1406A1992700416FD9 /* CALatencyLog.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CALatencyLog.cpp; sourceTree = "<group>"; };
+		D1895B1506A1992700416FD9 /* CALatencyLog.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CALatencyLog.h; sourceTree = "<group>"; };
+		D1895B1606A1992700416FD9 /* CALogMacros.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CALogMacros.h; sourceTree = "<group>"; };
+		D1895B1706A1992700416FD9 /* CAPersistence.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAPersistence.cpp; sourceTree = "<group>"; };
+		D1895B1806A1992700416FD9 /* CAPrefix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAPrefix.h; sourceTree = "<group>"; };
+		D1895B1B06A1992700416FD9 /* CAProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAProcess.cpp; sourceTree = "<group>"; };
+		D1895B1C06A1992700416FD9 /* CAProcess.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAProcess.h; sourceTree = "<group>"; };
+		D1895B1D06A1992700416FD9 /* CAPThread.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAPThread.cpp; sourceTree = "<group>"; };
+		D1895B1E06A1992700416FD9 /* CAPThread.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAPThread.h; sourceTree = "<group>"; };
+		D1895B1F06A1992700416FD9 /* CAReferenceCounted.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAReferenceCounted.h; sourceTree = "<group>"; };
+		D1895B2006A1992700416FD9 /* CASampleTools.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CASampleTools.cpp; sourceTree = "<group>"; };
+		D1895B2106A1992700416FD9 /* CASampleTools.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CASampleTools.h; sourceTree = "<group>"; };
+		D1895B2206A1992700416FD9 /* CASharedLibrary.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CASharedLibrary.cp; sourceTree = "<group>"; };
+		D1895B2306A1992700416FD9 /* CASharedLibrary.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CASharedLibrary.h; sourceTree = "<group>"; };
+		D1895B2406A1992700416FD9 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		D1895B2506A1992700416FD9 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		D1895B2606A1992700416FD9 /* CATink.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CATink.h; sourceTree = "<group>"; };
+		D1895B2706A1992700416FD9 /* CATokenMap.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CATokenMap.h; sourceTree = "<group>"; };
+		D1895B2806A1992700416FD9 /* CAVolumeCurve.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = CAVolumeCurve.cpp; sourceTree = "<group>"; };
+		D1895B2906A1992700416FD9 /* CAVolumeCurve.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CAVolumeCurve.h; sourceTree = "<group>"; };
+		D1895B2A06A1992700416FD9 /* Debugging++.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "Debugging++.h"; sourceTree = "<group>"; };
+		D1895B2B06A1992700416FD9 /* FormatConverterClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FormatConverterClient.h; sourceTree = "<group>"; };
+		D1895B2C06A1992700416FD9 /* kdebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = kdebug.h; sourceTree = "<group>"; };
+		D1895B2D06A1992700416FD9 /* latency.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = latency.c; sourceTree = "<group>"; };
+		D1895B2E06A1992700416FD9 /* latency.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = latency.h; sourceTree = "<group>"; };
+		D1895B2F06A1992700416FD9 /* MatrixMixerVolumes.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixMixerVolumes.cpp; sourceTree = "<group>"; };
+		D1895B3006A1992700416FD9 /* MatrixMixerVolumes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MatrixMixerVolumes.h; sourceTree = "<group>"; };
+		D1B00F6609A00FDD00071E3F /* Info-WormHole2_VST.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-WormHole2_VST.plist"; sourceTree = "<group>"; };
+		D1B00F6809A00FDD00071E3F /* Wormhole2.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wormhole2.vst; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B0D4EF07BBA455003E3FB0 /* WHStatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHStatic.h; sourceTree = "<group>"; };
+		D1B0D4F007BBA455003E3FB0 /* WHStatic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WHStatic.cpp; sourceTree = "<group>"; };
+		D1B0D50007BBA7B5003E3FB0 /* WHEndian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHEndian.h; sourceTree = "<group>"; };
+		D1BD09D306A287AE004AAF0C /* AudioToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		D1BD09E306A287C5004AAF0C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		D1C26DB3099798A700DE65A1 /* aeffguieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = aeffguieditor.cpp; path = ../vst2au/aeffguieditor.cpp; sourceTree = SOURCE_ROOT; };
+		D1C26DB4099798A700DE65A1 /* aeffguieditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = aeffguieditor.h; path = ../vst2au/aeffguieditor.h; sourceTree = SOURCE_ROOT; };
+		D1C26DB5099798A700DE65A1 /* audioeffectx.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = audioeffectx.cpp; path = ../vst2au/audioeffectx.cpp; sourceTree = SOURCE_ROOT; };
+		D1C26DB6099798A700DE65A1 /* audioeffectx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = audioeffectx.h; path = ../vst2au/audioeffectx.h; sourceTree = SOURCE_ROOT; };
+		D1C26DB7099798A700DE65A1 /* vstplugsmacho_au.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstplugsmacho_au.h; path = ../vst2au/vstplugsmacho_au.h; sourceTree = SOURCE_ROOT; };
+		D1C26DF90997991100DE65A1 /* vstcontrols.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstcontrols.cpp; path = ../vstgui/vstcontrols.cpp; sourceTree = SOURCE_ROOT; };
+		D1C26DFA0997991100DE65A1 /* vstcontrols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstcontrols.h; path = ../vstgui/vstcontrols.h; sourceTree = SOURCE_ROOT; };
+		D1C26DFB0997991100DE65A1 /* vstgui.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = vstgui.cpp; path = ../vstgui/vstgui.cpp; sourceTree = SOURCE_ROOT; };
+		D1C26DFC0997991100DE65A1 /* vstgui.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstgui.h; path = ../vstgui/vstgui.h; sourceTree = SOURCE_ROOT; };
+		D1C26DFE0997991100DE65A1 /* vstplugscarbon.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstplugscarbon.h; path = ../vstgui/vstplugscarbon.h; sourceTree = SOURCE_ROOT; };
+		D1C26DFF0997991100DE65A1 /* vstplugsmac.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstplugsmac.h; path = ../vstgui/vstplugsmac.h; sourceTree = SOURCE_ROOT; };
+		D1C26E000997991100DE65A1 /* vstplugsmacho.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstplugsmacho.h; path = ../vstgui/vstplugsmacho.h; sourceTree = SOURCE_ROOT; };
+		D1C26E480997993B00DE65A1 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../resource/Icon.icns; sourceTree = SOURCE_ROOT; };
+		D1D1110A078FEC7F00963E8C /* WHsocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHsocket.h; sourceTree = "<group>"; };
+		D1D1110B078FEC7F00963E8C /* WHsocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WHsocket.cpp; sourceTree = "<group>"; };
+		D1D88CB109A2356C00019B9C /* AEffect.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AEffect.h; path = ../vstsdk/AEffect.h; sourceTree = SOURCE_ROOT; };
+		D1D88CB209A2356C00019B9C /* aeffectx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = aeffectx.h; path = ../vstsdk/aeffectx.h; sourceTree = SOURCE_ROOT; };
+		D1D88CB309A2356C00019B9C /* AEffEditor.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = AEffEditor.hpp; path = ../vstsdk/AEffEditor.hpp; sourceTree = SOURCE_ROOT; };
+		D1D88CB409A2356C00019B9C /* aeffguieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = aeffguieditor.cpp; path = ../vstsdk/aeffguieditor.cpp; sourceTree = SOURCE_ROOT; };
+		D1D88CB509A2356C00019B9C /* aeffguieditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = aeffguieditor.h; path = ../vstsdk/aeffguieditor.h; sourceTree = SOURCE_ROOT; };
+		D1D88CB609A2356C00019B9C /* AudioEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AudioEffect.cpp; path = ../vstsdk/AudioEffect.cpp; sourceTree = SOURCE_ROOT; };
+		D1D88CB709A2356C00019B9C /* AudioEffect.hpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.h; name = AudioEffect.hpp; path = ../vstsdk/AudioEffect.hpp; sourceTree = SOURCE_ROOT; };
+		D1D88CB809A2356C00019B9C /* audioeffectx.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = audioeffectx.cpp; path = ../vstsdk/audioeffectx.cpp; sourceTree = SOURCE_ROOT; };
+		D1D88CB909A2356C00019B9C /* audioeffectx.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = audioeffectx.h; path = ../vstsdk/audioeffectx.h; sourceTree = SOURCE_ROOT; };
+		D1D88CBA09A2356C00019B9C /* vstfxstore.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = vstfxstore.h; path = ../vstsdk/vstfxstore.h; sourceTree = SOURCE_ROOT; };
+		D1E9A23309CDAA1800E53766 /* Info-WormHole2_AU.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-WormHole2_AU.plist"; sourceTree = "<group>"; };
+		D1E9A23509CDAA1800E53766 /* Wormhole2.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wormhole2.component; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1EE31E607940E8100F71BE3 /* WHRingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHRingBuffer.h; sourceTree = "<group>"; };
+		D1EE31E707940E8100F71BE3 /* WHRingBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WHRingBuffer.cpp; sourceTree = "<group>"; };
+		F40DC58A03C1B53E00A82A01 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		F5D915DE0472923F0111649E /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1B00F5309A00FDD00071E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B00F5409A00FDD00071E3F /* ApplicationServices.framework in Frameworks */,
+				D1B00F5509A00FDD00071E3F /* QuickTime.framework in Frameworks */,
+				D1B00F5609A00FDD00071E3F /* Carbon.framework in Frameworks */,
+				D1B00F5709A00FDD00071E3F /* CoreFoundation.framework in Frameworks */,
+				D1B00F5809A00FDD00071E3F /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E9A22209CDAA1800E53766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E9A22309CDAA1800E53766 /* ApplicationServices.framework in Frameworks */,
+				D1E9A22409CDAA1800E53766 /* QuickTime.framework in Frameworks */,
+				D1E9A22509CDAA1800E53766 /* Carbon.framework in Frameworks */,
+				D1E9A22609CDAA1800E53766 /* CoreAudio.framework in Frameworks */,
+				D1E9A22709CDAA1800E53766 /* AudioToolbox.framework in Frameworks */,
+				D1E9A22809CDAA1800E53766 /* AudioUnit.framework in Frameworks */,
+				D1E9A22909CDAA1800E53766 /* CoreServices.framework in Frameworks */,
+				D1E9A22A09CDAA1800E53766 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* adelayedit */ = {
+			isa = PBXGroup;
+			children = (
+				D1C26DC20997990500DE65A1 /* vstsdk */,
+				D1C26DE40997991100DE65A1 /* vstgui */,
+				D1895A5A06A1990E00416FD9 /* AUPublic */,
+				D1895AD406A1992700416FD9 /* PublicUtility */,
+				D1C26DB2099798A700DE65A1 /* vst2au */,
+				D1652E24078EB51A0037A495 /* WormHole2 */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+				D1B00F6609A00FDD00071E3F /* Info-WormHole2_VST.plist */,
+				D1E9A23309CDAA1800E53766 /* Info-WormHole2_AU.plist */,
+			);
+			name = adelayedit;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D1BD09D306A287AE004AAF0C /* AudioToolbox.framework */,
+				D1BD09E306A287C5004AAF0C /* CoreServices.framework */,
+				D13BD79C06A1D7F3008E377D /* AudioUnit.framework */,
+				D13BD7D506A1D80C008E377D /* CoreAudio.framework */,
+				D13BD7E406A1D818008E377D /* CoreFoundation.framework */,
+				08EA7FFBFE8413EDC02AAC07 /* Carbon.framework */,
+				F40DC58A03C1B53E00A82A01 /* ApplicationServices.framework */,
+				F5D915DE0472923F0111649E /* QuickTime.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1057E8B0998A55500B94D84 /* bmp10001.png */,
+				D1057E8C0998A55500B94D84 /* bmp10002.png */,
+				D1057E8D0998A55500B94D84 /* bmp10003.png */,
+				D1057E8E0998A55500B94D84 /* bmp10004.png */,
+				D1057E8F0998A55500B94D84 /* bmp10005.png */,
+				D1057E900998A55500B94D84 /* bmp10006.png */,
+				D1057E910998A55500B94D84 /* bmp10007.png */,
+				D1057E920998A55500B94D84 /* bmp10008.png */,
+				D1057E930998A55500B94D84 /* bmp10009.png */,
+				D1057E940998A55500B94D84 /* bmp10010.png */,
+				D1057E950998A55500B94D84 /* bmp10011.png */,
+				D1057E960998A55500B94D84 /* bmp10013.png */,
+				D1057E970998A55500B94D84 /* bmp10014.png */,
+				D1057E990998A55500B94D84 /* bmp10017.png */,
+				D1057E9A0998A55500B94D84 /* bmp10018.png */,
+				D1C26E480997993B00DE65A1 /* Icon.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1B00F6809A00FDD00071E3F /* Wormhole2.vst */,
+				D1E9A23509CDAA1800E53766 /* Wormhole2.component */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D120115506CD0508009765A7 /* AUViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				D120115606CD0508009765A7 /* AUViewLocalizedStringKeys.h */,
+			);
+			path = AUViewBase;
+			sourceTree = "<group>";
+		};
+		D1652E24078EB51A0037A495 /* WormHole2 */ = {
+			isa = PBXGroup;
+			children = (
+				D1652E25078EB51A0037A495 /* apConfiguration.h */,
+				D1652E29078EB51A0037A495 /* WormHole15.r */,
+				D181599C07C9FBAB005CDA3A /* WHControls.h */,
+				D181599D07C9FBAB005CDA3A /* WHControls.cpp */,
+				D181593C07C9E2CF005CDA3A /* WHprefs.h */,
+				D181593D07C9E2CF005CDA3A /* WHprefs.cpp */,
+				D15B211007C0B07900B10C05 /* WHgetMachineName.h */,
+				D15B211107C0B07900B10C05 /* WHgetMachineName.cpp */,
+				D1B0D50007BBA7B5003E3FB0 /* WHEndian.h */,
+				D1B0D4EF07BBA455003E3FB0 /* WHStatic.h */,
+				D1B0D4F007BBA455003E3FB0 /* WHStatic.cpp */,
+				D1EE31E607940E8100F71BE3 /* WHRingBuffer.h */,
+				D1EE31E707940E8100F71BE3 /* WHRingBuffer.cpp */,
+				D1D1110A078FEC7F00963E8C /* WHsocket.h */,
+				D1D1110B078FEC7F00963E8C /* WHsocket.cpp */,
+				D1652E6A078EB8F60037A495 /* WHHeaders.h */,
+				D1652E66078EB5F00037A495 /* WHreceiver.h */,
+				D1652E67078EB5F00037A495 /* WHreceiver.cpp */,
+				D1652E62078EB5E10037A495 /* WHsender.h */,
+				D1652E63078EB5E10037A495 /* WHsender.cpp */,
+				D1652E26078EB51A0037A495 /* WormHole15.cpp */,
+				D1652E27078EB51A0037A495 /* WormHole15.exp */,
+				D1652E28078EB51A0037A495 /* WormHole15.hpp */,
+				D1652E2A078EB51A0037A495 /* WormHole15Editor.cpp */,
+				D1652E2B078EB51A0037A495 /* WormHole15Editor.h */,
+				D1652E2C078EB51A0037A495 /* WormHole15main.cpp */,
+			);
+			name = WormHole2;
+			path = ../source;
+			sourceTree = SOURCE_ROOT;
+		};
+		D1895A5A06A1990E00416FD9 /* AUPublic */ = {
+			isa = PBXGroup;
+			children = (
+				D1895A8506A1990E00416FD9 /* Utility */,
+				D1895A7506A1990E00416FD9 /* OtherBases */,
+				D1895A6906A1990E00416FD9 /* AUCarbonViewBase */,
+				D120115506CD0508009765A7 /* AUViewBase */,
+				D1895A5B06A1990E00416FD9 /* AUBase */,
+			);
+			name = AUPublic;
+			path = ../CoreAudio/AudioUnits/AUPublic;
+			sourceTree = SOURCE_ROOT;
+		};
+		D1895A5B06A1990E00416FD9 /* AUBase */ = {
+			isa = PBXGroup;
+			children = (
+				D1895A5C06A1990E00416FD9 /* AUBase.cpp */,
+				D1895A5D06A1990E00416FD9 /* AUBase.h */,
+				D1895A5E06A1990E00416FD9 /* AUDispatch.cpp */,
+				D1895A5F06A1990E00416FD9 /* AUDispatch.h */,
+				D1895A6006A1990E00416FD9 /* AUInputElement.cpp */,
+				D1895A6106A1990E00416FD9 /* AUInputElement.h */,
+				D1895A6206A1990E00416FD9 /* AUOutputElement.cpp */,
+				D1895A6306A1990E00416FD9 /* AUOutputElement.h */,
+				D1895A6406A1990E00416FD9 /* AUResources.r */,
+				D1895A6506A1990E00416FD9 /* AUScopeElement.cpp */,
+				D1895A6606A1990E00416FD9 /* AUScopeElement.h */,
+				D1895A6706A1990E00416FD9 /* ComponentBase.cpp */,
+				D1895A6806A1990E00416FD9 /* ComponentBase.h */,
+			);
+			path = AUBase;
+			sourceTree = "<group>";
+		};
+		D1895A6906A1990E00416FD9 /* AUCarbonViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				D1895A6A06A1990E00416FD9 /* AUCarbonViewBase.cpp */,
+				D1895A6B06A1990E00416FD9 /* AUCarbonViewBase.h */,
+				D1895A6C06A1990E00416FD9 /* AUCarbonViewControl.cpp */,
+				D1895A6D06A1990E00416FD9 /* AUCarbonViewControl.h */,
+				D1895A6E06A1990E00416FD9 /* AUCarbonViewDispatch.cpp */,
+				D1895A6F06A1990E00416FD9 /* AUControlGroup.cpp */,
+				D1895A7006A1990E00416FD9 /* AUControlGroup.h */,
+				D1895A7306A1990E00416FD9 /* CarbonEventHandler.cpp */,
+				D1895A7406A1990E00416FD9 /* CarbonEventHandler.h */,
+			);
+			path = AUCarbonViewBase;
+			sourceTree = "<group>";
+		};
+		D1895A7506A1990E00416FD9 /* OtherBases */ = {
+			isa = PBXGroup;
+			children = (
+				D1895A7606A1990E00416FD9 /* AUEffectBase.cpp */,
+				D1895A7706A1990E00416FD9 /* AUEffectBase.h */,
+				D1895A7806A1990E00416FD9 /* AUInlineEffectBase.cpp */,
+				D1895A7906A1990E00416FD9 /* AUInlineEffectBase.h */,
+				D1895A7A06A1990E00416FD9 /* AUMIDIBase.cpp */,
+				D1895A7B06A1990E00416FD9 /* AUMIDIBase.h */,
+				D1895A7C06A1990E00416FD9 /* AUMIDIEffectBase.cpp */,
+				D1895A7D06A1990E00416FD9 /* AUMIDIEffectBase.h */,
+				D1895A7E06A1990E00416FD9 /* AUOutputBase.cpp */,
+				D1895A7F06A1990E00416FD9 /* AUOutputBase.h */,
+				D1895A8306A1990E00416FD9 /* MusicDeviceBase.cpp */,
+				D1895A8406A1990E00416FD9 /* MusicDeviceBase.h */,
+			);
+			path = OtherBases;
+			sourceTree = "<group>";
+		};
+		D1895A8506A1990E00416FD9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D1895A8606A1990E00416FD9 /* AUBuffer.cpp */,
+				D1895A8706A1990E00416FD9 /* AUBuffer.h */,
+				D1895A8806A1990E00416FD9 /* AUDebugDispatcher.cpp */,
+				D1895A8906A1990E00416FD9 /* AUDebugDispatcher.h */,
+				D1895A8A06A1990E00416FD9 /* AUInputFormatConverter.h */,
+				D1895A8B06A1990E00416FD9 /* AUSilentTimeout.h */,
+				D1895A8C06A1990E00416FD9 /* AUTimestampGenerator.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D1895AD406A1992700416FD9 /* PublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				D12E22B209CF6107003E3800 /* CAVectorUnit.cpp */,
+				D12E22B309CF6107003E3800 /* CAVectorUnit.h */,
+				D12E22B409CF6107003E3800 /* CAVectorUnitTypes.h */,
+				D12011D506CD08CA009765A7 /* CAMutex.cpp */,
+				D12011D606CD08CA009765A7 /* CAMutex.h */,
+				D1895AD506A1992700416FD9 /* AudioFilePlay.h */,
+				D1895AD606A1992700416FD9 /* AudioFilePlayImpl */,
+				D1895ADC06A1992700416FD9 /* CAAudioBufferList.cp */,
+				D1895ADD06A1992700416FD9 /* CAAudioBufferList.h */,
+				D1895ADE06A1992700416FD9 /* CAAudioChannelLayout.cpp */,
+				D1895ADF06A1992700416FD9 /* CAAudioChannelLayout.h */,
+				D1895AE006A1992700416FD9 /* CAAudioChannelLayoutObject.cpp */,
+				D1895AE106A1992700416FD9 /* CAAudioHardwareDevice.cpp */,
+				D1895AE206A1992700416FD9 /* CAAudioHardwareDevice.h */,
+				D1895AE306A1992700416FD9 /* CAAudioHardwareStream.cpp */,
+				D1895AE406A1992700416FD9 /* CAAudioHardwareStream.h */,
+				D1895AE506A1992700416FD9 /* CAAudioHardwareSystem.cpp */,
+				D1895AE606A1992700416FD9 /* CAAudioHardwareSystem.h */,
+				D1895AE706A1992700416FD9 /* CAAudioStreamBasicDesc.cpp */,
+				D1895AE806A1992700416FD9 /* CAAudioStreamBasicDesc.h */,
+				D1895AE906A1992700416FD9 /* CAAudioTimeStamp.cp */,
+				D1895AEA06A1992700416FD9 /* CAAudioTimeStamp.h */,
+				D1895AEB06A1992700416FD9 /* CAAudioUnit.cpp */,
+				D1895AEC06A1992700416FD9 /* CAAudioUnit.h */,
+				D1895AED06A1992700416FD9 /* CAAudioValueRange.h */,
+				D120115D06CD0533009765A7 /* CAAUParameter.cpp */,
+				D120115E06CD0533009765A7 /* CAAUParameter.h */,
+				D120116B06CD0541009765A7 /* CAAUPresetFile.h */,
+				D120116C06CD0541009765A7 /* CAAUPresetFile.cpp */,
+				D1895AEE06A1992700416FD9 /* CAAutoDisposer.h */,
+				D1895AEF06A1992700416FD9 /* CABufferList.cpp */,
+				D1895AF006A1992700416FD9 /* CABufferList.h */,
+				D1895AF106A1992700416FD9 /* CACFArray.cpp */,
+				D1895AF206A1992700416FD9 /* CACFArray.h */,
+				D1895AF306A1992700416FD9 /* CACFData.h */,
+				D1895AF406A1992700416FD9 /* CACFDictionary.cpp */,
+				D1895AF506A1992700416FD9 /* CACFDictionary.h */,
+				D1895AF606A1992700416FD9 /* CACFMachPort.cp */,
+				D1895AF706A1992700416FD9 /* CACFMachPort.h */,
+				D1895AF806A1992700416FD9 /* CACFMessagePort.cpp */,
+				D1895AF906A1992700416FD9 /* CACFMessagePort.h */,
+				D1895AFA06A1992700416FD9 /* CACFNumber.cp */,
+				D1895AFB06A1992700416FD9 /* CACFNumber.h */,
+				D1895AFC06A1992700416FD9 /* CACFObject.h */,
+				D1895AFD06A1992700416FD9 /* CACFRunLoopTimer.cpp */,
+				D1895AFE06A1992700416FD9 /* CACFRunLoopTimer.h */,
+				D1895AFF06A1992700416FD9 /* CACFString.cp */,
+				D1895B0006A1992700416FD9 /* CACFString.h */,
+				D1895B0106A1992700416FD9 /* CAComponent.cpp */,
+				D1895B0206A1992700416FD9 /* CAComponent.h */,
+				D1895B0306A1992700416FD9 /* CAComponentDescription.cpp */,
+				D1895B0406A1992700416FD9 /* CAComponentDescription.h */,
+				D1895B0506A1992700416FD9 /* CAConditionalMacros.h */,
+				D1895B0606A1992700416FD9 /* CADebugger.cp */,
+				D1895B0706A1992700416FD9 /* CADebugger.h */,
+				D1895B0806A1992700416FD9 /* CADebugMacros.cp */,
+				D1895B0906A1992700416FD9 /* CADebugMacros.h */,
+				D1895B0A06A1992700416FD9 /* CADebugPrintf.h */,
+				D1895B0B06A1992700416FD9 /* CAException.h */,
+				D1895B0C06A1992700416FD9 /* CAGuard.cpp */,
+				D1895B0D06A1992700416FD9 /* CAGuard.h */,
+				D1895B0E06A1992700416FD9 /* CAHALIOCycleTelemetryClient.cpp */,
+				D1895B0F06A1992700416FD9 /* CAHALIOCycleTelemetryClient.h */,
+				D1895B1006A1992700416FD9 /* CAHALTelemetry.h */,
+				D1895B1106A1992700416FD9 /* CAHostTimeBase.cpp */,
+				D1895B1206A1992700416FD9 /* CAHostTimeBase.h */,
+				D1895B1306A1992700416FD9 /* CAIOObject.h */,
+				D1895B1406A1992700416FD9 /* CALatencyLog.cpp */,
+				D1895B1506A1992700416FD9 /* CALatencyLog.h */,
+				D1895B1606A1992700416FD9 /* CALogMacros.h */,
+				D1895B1706A1992700416FD9 /* CAPersistence.cpp */,
+				D1895B1806A1992700416FD9 /* CAPrefix.h */,
+				D1895B1B06A1992700416FD9 /* CAProcess.cpp */,
+				D1895B1C06A1992700416FD9 /* CAProcess.h */,
+				D1895B1D06A1992700416FD9 /* CAPThread.cpp */,
+				D1895B1E06A1992700416FD9 /* CAPThread.h */,
+				D1895B1F06A1992700416FD9 /* CAReferenceCounted.h */,
+				D1895B2006A1992700416FD9 /* CASampleTools.cpp */,
+				D1895B2106A1992700416FD9 /* CASampleTools.h */,
+				D1895B2206A1992700416FD9 /* CASharedLibrary.cp */,
+				D1895B2306A1992700416FD9 /* CASharedLibrary.h */,
+				D1895B2406A1992700416FD9 /* CAStreamBasicDescription.cpp */,
+				D1895B2506A1992700416FD9 /* CAStreamBasicDescription.h */,
+				D1895B2606A1992700416FD9 /* CATink.h */,
+				D1895B2706A1992700416FD9 /* CATokenMap.h */,
+				D1895B2806A1992700416FD9 /* CAVolumeCurve.cpp */,
+				D1895B2906A1992700416FD9 /* CAVolumeCurve.h */,
+				D1895B2A06A1992700416FD9 /* Debugging++.h */,
+				D1895B2B06A1992700416FD9 /* FormatConverterClient.h */,
+				D1895B2C06A1992700416FD9 /* kdebug.h */,
+				D1895B2D06A1992700416FD9 /* latency.c */,
+				D1895B2E06A1992700416FD9 /* latency.h */,
+				D1895B2F06A1992700416FD9 /* MatrixMixerVolumes.cpp */,
+				D1895B3006A1992700416FD9 /* MatrixMixerVolumes.h */,
+			);
+			name = PublicUtility;
+			path = ../CoreAudio/PublicUtility;
+			sourceTree = SOURCE_ROOT;
+		};
+		D1895AD606A1992700416FD9 /* AudioFilePlayImpl */ = {
+			isa = PBXGroup;
+			children = (
+				D1895AD706A1992700416FD9 /* AudioFileData.cpp */,
+				D1895AD806A1992700416FD9 /* AudioFilePlay.cpp */,
+				D1895AD906A1992700416FD9 /* AudioFilePlayer.cpp */,
+				D1895ADA06A1992700416FD9 /* AudioFilePlayer.h */,
+				D1895ADB06A1992700416FD9 /* AudioFileReaderThread.cpp */,
+			);
+			path = AudioFilePlayImpl;
+			sourceTree = "<group>";
+		};
+		D1C26DB2099798A700DE65A1 /* vst2au */ = {
+			isa = PBXGroup;
+			children = (
+				D1C26DB3099798A700DE65A1 /* aeffguieditor.cpp */,
+				D1C26DB4099798A700DE65A1 /* aeffguieditor.h */,
+				D1C26DB5099798A700DE65A1 /* audioeffectx.cpp */,
+				D1C26DB6099798A700DE65A1 /* audioeffectx.h */,
+				D1C26DB7099798A700DE65A1 /* vstplugsmacho_au.h */,
+			);
+			name = vst2au;
+			path = ../vst2au;
+			sourceTree = SOURCE_ROOT;
+		};
+		D1C26DC20997990500DE65A1 /* vstsdk */ = {
+			isa = PBXGroup;
+			children = (
+				D1D88CB109A2356C00019B9C /* AEffect.h */,
+				D1D88CB209A2356C00019B9C /* aeffectx.h */,
+				D1D88CB309A2356C00019B9C /* AEffEditor.hpp */,
+				D1D88CB409A2356C00019B9C /* aeffguieditor.cpp */,
+				D1D88CB509A2356C00019B9C /* aeffguieditor.h */,
+				D1D88CB609A2356C00019B9C /* AudioEffect.cpp */,
+				D1D88CB709A2356C00019B9C /* AudioEffect.hpp */,
+				D1D88CB809A2356C00019B9C /* audioeffectx.cpp */,
+				D1D88CB909A2356C00019B9C /* audioeffectx.h */,
+				D1D88CBA09A2356C00019B9C /* vstfxstore.h */,
+			);
+			name = vstsdk;
+			path = ../vstsdk;
+			sourceTree = SOURCE_ROOT;
+		};
+		D1C26DE40997991100DE65A1 /* vstgui */ = {
+			isa = PBXGroup;
+			children = (
+				D1C26DF90997991100DE65A1 /* vstcontrols.cpp */,
+				D1C26DFA0997991100DE65A1 /* vstcontrols.h */,
+				D1C26DFB0997991100DE65A1 /* vstgui.cpp */,
+				D1C26DFC0997991100DE65A1 /* vstgui.h */,
+				D1C26DFE0997991100DE65A1 /* vstplugscarbon.h */,
+				D1C26DFF0997991100DE65A1 /* vstplugsmac.h */,
+				D1C26E000997991100DE65A1 /* vstplugsmacho.h */,
+			);
+			name = vstgui;
+			path = ../vstgui;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D1B00F1709A00FDD00071E3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B00F1809A00FDD00071E3F /* apConfiguration.h in Headers */,
+				D1B00F1909A00FDD00071E3F /* WormHole15.hpp in Headers */,
+				D1B00F1A09A00FDD00071E3F /* WHsender.h in Headers */,
+				D1B00F1B09A00FDD00071E3F /* WHreceiver.h in Headers */,
+				D1B00F1C09A00FDD00071E3F /* WHHeaders.h in Headers */,
+				D1B00F1D09A00FDD00071E3F /* WHsocket.h in Headers */,
+				D1B00F1E09A00FDD00071E3F /* WHRingBuffer.h in Headers */,
+				D1B00F1F09A00FDD00071E3F /* WHStatic.h in Headers */,
+				D1B00F2009A00FDD00071E3F /* WHEndian.h in Headers */,
+				D1B00F2109A00FDD00071E3F /* WHgetMachineName.h in Headers */,
+				D1B00F2209A00FDD00071E3F /* WHprefs.h in Headers */,
+				D1B00F2309A00FDD00071E3F /* WHControls.h in Headers */,
+				D1B00F2409A00FDD00071E3F /* WormHole15Editor.h in Headers */,
+				D1B00F2C09A00FDD00071E3F /* vstgui.h in Headers */,
+				D1B00F2D09A00FDD00071E3F /* vstcontrols.h in Headers */,
+				D1D88CDA09A2358200019B9C /* aeffguieditor.h in Headers */,
+				D1D88CDB09A2358300019B9C /* AEffEditor.hpp in Headers */,
+				D1D88CDC09A2358400019B9C /* aeffectx.h in Headers */,
+				D1D88CDD09A2358400019B9C /* AEffect.h in Headers */,
+				D1D88CDF09A2358600019B9C /* AudioEffect.hpp in Headers */,
+				D1D88CE109A2358700019B9C /* audioeffectx.h in Headers */,
+				D1D88CE209A2358800019B9C /* vstfxstore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E9A1C709CDAA1800E53766 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E9A1C809CDAA1800E53766 /* CAStreamBasicDescription.h in Headers */,
+				D1E9A1C909CDAA1800E53766 /* CAHostTimeBase.h in Headers */,
+				D1E9A1CA09CDAA1800E53766 /* CAGuard.h in Headers */,
+				D1E9A1CB09CDAA1800E53766 /* CAAudioChannelLayout.h in Headers */,
+				D1E9A1CC09CDAA1800E53766 /* ComponentBase.h in Headers */,
+				D1E9A1CD09CDAA1800E53766 /* CarbonEventHandler.h in Headers */,
+				D1E9A1CE09CDAA1800E53766 /* AUDispatch.h in Headers */,
+				D1E9A1CF09CDAA1800E53766 /* AUScopeElement.h in Headers */,
+				D1E9A1D009CDAA1800E53766 /* AUOutputElement.h in Headers */,
+				D1E9A1D109CDAA1800E53766 /* AUDebugDispatcher.h in Headers */,
+				D1E9A1D209CDAA1800E53766 /* AUBase.h in Headers */,
+				D1E9A1D309CDAA1800E53766 /* AUBuffer.h in Headers */,
+				D1E9A1D409CDAA1800E53766 /* AUCarbonViewBase.h in Headers */,
+				D1E9A1D509CDAA1800E53766 /* AUInputElement.h in Headers */,
+				D1E9A1D609CDAA1800E53766 /* CAAUParameter.h in Headers */,
+				D1E9A1D709CDAA1800E53766 /* AUViewLocalizedStringKeys.h in Headers */,
+				D1E9A1D909CDAA1800E53766 /* AUCarbonViewControl.h in Headers */,
+				D1E9A1DA09CDAA1800E53766 /* WHprefs.h in Headers */,
+				D1E9A1DB09CDAA1800E53766 /* WHStatic.h in Headers */,
+				D1E9A1DC09CDAA1800E53766 /* WHsocket.h in Headers */,
+				D1E9A1DD09CDAA1800E53766 /* WHEndian.h in Headers */,
+				D1E9A1DE09CDAA1800E53766 /* WHRingBuffer.h in Headers */,
+				D1E9A1DF09CDAA1800E53766 /* WormHole15Editor.h in Headers */,
+				D1E9A1E009CDAA1800E53766 /* apConfiguration.h in Headers */,
+				D1E9A1E109CDAA1800E53766 /* WormHole15.hpp in Headers */,
+				D1E9A1E209CDAA1800E53766 /* WHreceiver.h in Headers */,
+				D1E9A1E309CDAA1800E53766 /* WHsender.h in Headers */,
+				D1E9A1E409CDAA1800E53766 /* WHHeaders.h in Headers */,
+				D1E9A1E509CDAA1800E53766 /* aeffguieditor.h in Headers */,
+				D1E9A1E609CDAA1800E53766 /* audioeffectx.h in Headers */,
+				D1E9A1E709CDAA1800E53766 /* vstplugsmacho_au.h in Headers */,
+				D1E9A1E809CDAA1800E53766 /* vstcontrols.h in Headers */,
+				D1E9A1E909CDAA1800E53766 /* vstgui.h in Headers */,
+				D1E9A1EA09CDAA1800E53766 /* vstplugscarbon.h in Headers */,
+				D1E9A1EB09CDAA1800E53766 /* vstplugsmac.h in Headers */,
+				D1E9A1EC09CDAA1800E53766 /* vstplugsmacho.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D1B00F1609A00FDD00071E3F /* WormHole2(VST) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B00F5C09A00FDD00071E3F /* Build configuration list for PBXNativeTarget "WormHole2(VST)" */;
+			buildPhases = (
+				D1B00F1709A00FDD00071E3F /* Headers */,
+				D1B00F2E09A00FDD00071E3F /* Resources */,
+				D1B00F4109A00FDD00071E3F /* Sources */,
+				D1B00F5309A00FDD00071E3F /* Frameworks */,
+				D1B00F5909A00FDD00071E3F /* Rez */,
+			);
+			buildRules = (
+				D1B00F6709A00FDD00071E3F /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "WormHole2(VST)";
+			productInstallPath = "";
+			productName = "NIB-adelay";
+			productReference = D1B00F6809A00FDD00071E3F /* Wormhole2.vst */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D1E9A1C609CDAA1800E53766 /* WormHole2(AU) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1E9A22F09CDAA1800E53766 /* Build configuration list for PBXNativeTarget "WormHole2(AU)" */;
+			buildPhases = (
+				D1E9A1C709CDAA1800E53766 /* Headers */,
+				D1E9A1ED09CDAA1800E53766 /* Resources */,
+				D1E9A20109CDAA1800E53766 /* Sources */,
+				D1E9A22209CDAA1800E53766 /* Frameworks */,
+				D1E9A22B09CDAA1800E53766 /* Rez */,
+			);
+			buildRules = (
+				D1E9A23409CDAA1800E53766 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "WormHole2(AU)";
+			productInstallPath = "";
+			productName = "NIB-adelay";
+			productReference = D1E9A23509CDAA1800E53766 /* Wormhole2.component */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D11FF6D108B9E3E30084D33D /* Build configuration list for PBXProject "WormHole2" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* adelayedit */;
+			projectDirPath = "";
+			targets = (
+				D1E9A1C609CDAA1800E53766 /* WormHole2(AU) */,
+				D1B00F1609A00FDD00071E3F /* WormHole2(VST) */,
+				D1C25C0C09D0617000455690 /* WH2 complete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1B00F2E09A00FDD00071E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B00F2F09A00FDD00071E3F /* bmp10001.png in Resources */,
+				D1B00F3009A00FDD00071E3F /* bmp10002.png in Resources */,
+				D1B00F3109A00FDD00071E3F /* bmp10003.png in Resources */,
+				D1B00F3209A00FDD00071E3F /* bmp10004.png in Resources */,
+				D1B00F3309A00FDD00071E3F /* bmp10005.png in Resources */,
+				D1B00F3409A00FDD00071E3F /* bmp10006.png in Resources */,
+				D1B00F3509A00FDD00071E3F /* bmp10007.png in Resources */,
+				D1B00F3609A00FDD00071E3F /* bmp10008.png in Resources */,
+				D1B00F3709A00FDD00071E3F /* bmp10009.png in Resources */,
+				D1B00F3809A00FDD00071E3F /* bmp10010.png in Resources */,
+				D1B00F3909A00FDD00071E3F /* bmp10011.png in Resources */,
+				D1B00F3A09A00FDD00071E3F /* bmp10013.png in Resources */,
+				D1B00F3B09A00FDD00071E3F /* bmp10014.png in Resources */,
+				D1B00F3D09A00FDD00071E3F /* bmp10017.png in Resources */,
+				D1B00F3E09A00FDD00071E3F /* bmp10018.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E9A1ED09CDAA1800E53766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E9A1EE09CDAA1800E53766 /* Icon.icns in Resources */,
+				D1E9A1EF09CDAA1800E53766 /* bmp10001.png in Resources */,
+				D1E9A1F009CDAA1800E53766 /* bmp10002.png in Resources */,
+				D1E9A1F109CDAA1800E53766 /* bmp10003.png in Resources */,
+				D1E9A1F209CDAA1800E53766 /* bmp10004.png in Resources */,
+				D1E9A1F309CDAA1800E53766 /* bmp10005.png in Resources */,
+				D1E9A1F409CDAA1800E53766 /* bmp10006.png in Resources */,
+				D1E9A1F509CDAA1800E53766 /* bmp10007.png in Resources */,
+				D1E9A1F609CDAA1800E53766 /* bmp10008.png in Resources */,
+				D1E9A1F709CDAA1800E53766 /* bmp10009.png in Resources */,
+				D1E9A1F809CDAA1800E53766 /* bmp10010.png in Resources */,
+				D1E9A1F909CDAA1800E53766 /* bmp10011.png in Resources */,
+				D1E9A1FA09CDAA1800E53766 /* bmp10013.png in Resources */,
+				D1E9A1FB09CDAA1800E53766 /* bmp10014.png in Resources */,
+				D1E9A1FD09CDAA1800E53766 /* bmp10017.png in Resources */,
+				D1E9A1FE09CDAA1800E53766 /* bmp10018.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		D1B00F5909A00FDD00071E3F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E9A22B09CDAA1800E53766 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E9A22C09CDAA1800E53766 /* WormHole15.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1B00F4109A00FDD00071E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B00F4209A00FDD00071E3F /* WormHole15.cpp in Sources */,
+				D1B00F4409A00FDD00071E3F /* WHsender.cpp in Sources */,
+				D1B00F4509A00FDD00071E3F /* WHreceiver.cpp in Sources */,
+				D1B00F4609A00FDD00071E3F /* WHsocket.cpp in Sources */,
+				D1B00F4709A00FDD00071E3F /* WHRingBuffer.cpp in Sources */,
+				D1B00F4809A00FDD00071E3F /* WHStatic.cpp in Sources */,
+				D1B00F4909A00FDD00071E3F /* WHgetMachineName.cpp in Sources */,
+				D1B00F4A09A00FDD00071E3F /* WHprefs.cpp in Sources */,
+				D1B00F4B09A00FDD00071E3F /* WHControls.cpp in Sources */,
+				D1B00F4C09A00FDD00071E3F /* WormHole15Editor.cpp in Sources */,
+				D1B00F5109A00FDD00071E3F /* vstgui.cpp in Sources */,
+				D1B00F5209A00FDD00071E3F /* vstcontrols.cpp in Sources */,
+				D1D88CD909A2358100019B9C /* aeffguieditor.cpp in Sources */,
+				D1D88CDE09A2358500019B9C /* AudioEffect.cpp in Sources */,
+				D1D88CE009A2358600019B9C /* audioeffectx.cpp in Sources */,
+				D1D88D2D09A23B9400019B9C /* WormHole15main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E9A20109CDAA1800E53766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E9A20209CDAA1800E53766 /* CAStreamBasicDescription.cpp in Sources */,
+				D1E9A20309CDAA1800E53766 /* CAHostTimeBase.cpp in Sources */,
+				D1E9A20409CDAA1800E53766 /* CAGuard.cpp in Sources */,
+				D1E9A20509CDAA1800E53766 /* CAAudioChannelLayout.cpp in Sources */,
+				D1E9A20609CDAA1800E53766 /* ComponentBase.cpp in Sources */,
+				D1E9A20709CDAA1800E53766 /* CarbonEventHandler.cpp in Sources */,
+				D1E9A20809CDAA1800E53766 /* AUDispatch.cpp in Sources */,
+				D1E9A20909CDAA1800E53766 /* AUScopeElement.cpp in Sources */,
+				D1E9A20A09CDAA1800E53766 /* AUOutputElement.cpp in Sources */,
+				D1E9A20B09CDAA1800E53766 /* AUDebugDispatcher.cpp in Sources */,
+				D1E9A20C09CDAA1800E53766 /* AUBase.cpp in Sources */,
+				D1E9A20D09CDAA1800E53766 /* AUBuffer.cpp in Sources */,
+				D1E9A20E09CDAA1800E53766 /* AUCarbonViewBase.cpp in Sources */,
+				D1E9A20F09CDAA1800E53766 /* AUCarbonViewDispatch.cpp in Sources */,
+				D1E9A21009CDAA1800E53766 /* AUInputElement.cpp in Sources */,
+				D1E9A21109CDAA1800E53766 /* CAAUParameter.cpp in Sources */,
+				D1E9A21209CDAA1800E53766 /* CAMutex.cpp in Sources */,
+				D1E9A21309CDAA1800E53766 /* AUCarbonViewControl.cpp in Sources */,
+				D1E9A21509CDAA1800E53766 /* WHsocket.cpp in Sources */,
+				D1E9A21609CDAA1800E53766 /* WormHole15.cpp in Sources */,
+				D1E9A21709CDAA1800E53766 /* WHreceiver.cpp in Sources */,
+				D1E9A21809CDAA1800E53766 /* WormHole15Editor.cpp in Sources */,
+				D1E9A21909CDAA1800E53766 /* WHprefs.cpp in Sources */,
+				D1E9A21A09CDAA1800E53766 /* WHsender.cpp in Sources */,
+				D1E9A21B09CDAA1800E53766 /* WHStatic.cpp in Sources */,
+				D1E9A21C09CDAA1800E53766 /* WHRingBuffer.cpp in Sources */,
+				D1E9A21D09CDAA1800E53766 /* WHControls.cpp in Sources */,
+				D1E9A21E09CDAA1800E53766 /* aeffguieditor.cpp in Sources */,
+				D1E9A21F09CDAA1800E53766 /* audioeffectx.cpp in Sources */,
+				D1E9A22009CDAA1800E53766 /* vstcontrols.cpp in Sources */,
+				D1E9A22109CDAA1800E53766 /* vstgui.cpp in Sources */,
+				D12E22B809CF6107003E3800 /* CAVectorUnit.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1C25C0E09D0617D00455690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1E9A1C609CDAA1800E53766 /* WormHole2(AU) */;
+			targetProxy = D1C25C0D09D0617D00455690 /* PBXContainerItemProxy */;
+		};
+		D1C25C1009D0618000455690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1B00F1609A00FDD00071E3F /* WormHole2(VST) */;
+			targetProxy = D1C25C0F09D0618000455690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D11FF6D208B9E3E30084D33D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				GENERATE_PKGINFO_FILE = YES;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_LDFLAGS = "-bundle";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		D11FF6D308B9E3E30084D33D /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				GENERATE_PKGINFO_FILE = YES;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		D11FF6D408B9E3E30084D33D /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_LDFLAGS = "-bundle";
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+		D1B00F5D09A00FDD00071E3F /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = ../vstgui/vstplugsmacho.h;
+				GCC_PREPROCESSOR_DEFINITIONS = DEVELOPMENT;
+				HEADER_SEARCH_PATHS = ../source/common;
+				INFOPLIST_FILE = "Info-WormHole2_VST.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
+				OTHER_CFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Wormhole2;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = vst;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		D1B00F5E09A00FDD00071E3F /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = ../vstgui/vstplugsmacho.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "WH_DEBUGXXX=1";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ../source/common;
+				INFOPLIST_FILE = "Info-WormHole2_VST.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
+				OTHER_CFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Wormhole2;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Deployment;
+		};
+		D1B00F5F09A00FDD00071E3F /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREFIX_HEADER = ../source/common/vstplugsmacho.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "WH_DEBUGXXX=1";
+				HEADER_SEARCH_PATHS = ../source/common;
+				INFOPLIST_FILE = "Info-WormHole2_VST.plist";
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
+				OTHER_CFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Wormhole2;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Default;
+		};
+		D1C25C1809D061B500455690 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "WH2 complete";
+			};
+			name = Development;
+		};
+		D1C25C1909D061B500455690 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "WH2 complete";
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		D1C25C1A09D061B500455690 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "WH2 complete";
+			};
+			name = Default;
+		};
+		D1E9A23009CDAA1800E53766 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXPORTED_SYMBOLS_FILE = ../source/WormHole15.exp;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = ../vst2au/vstplugsmacho_au.h;
+				GCC_PREPROCESSOR_DEFINITIONS = DEVELOPMENT;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-WormHole2_AU.plist";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/Components/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-I ../source/CoreAudio/AudioUnits/AUPublic/AUBase -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
+				PRODUCT_NAME = Wormhole2;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		D1E9A23109CDAA1800E53766 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXPORTED_SYMBOLS_FILE = ../source/WormHole15.exp;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = ../vst2au/vstplugsmacho_au.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "WHDEBUGXXX=1";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Info-WormHole2_AU.plist";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/Components/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -I ../source/CoreAudio/AudioUnits/AUPublic/AUBase -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
+				PRODUCT_NAME = Wormhole2;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+			};
+			name = Deployment;
+		};
+		D1E9A23209CDAA1800E53766 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXPORTED_SYMBOLS_FILE = ../source/WormHole15/WormHole15.exp;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREFIX_HEADER = ../source/apComponentLib2/vstplugsmacho_au.h;
+				GCC_PREPROCESSOR_DEFINITIONS = "WH_DEBUGXXX=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-WormHole2_AU___Upgraded_.plist";
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/Components/";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-bundle";
+				OTHER_REZFLAGS = "-I ../source/CoreAudio/AudioUnits/AUPublic/AUBase -I /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers";
+				PRODUCT_NAME = Wormhole2;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = component;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D11FF6D108B9E3E30084D33D /* Build configuration list for PBXProject "WormHole2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11FF6D208B9E3E30084D33D /* Development */,
+				D11FF6D308B9E3E30084D33D /* Deployment */,
+				D11FF6D408B9E3E30084D33D /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		D1B00F5C09A00FDD00071E3F /* Build configuration list for PBXNativeTarget "WormHole2(VST)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B00F5D09A00FDD00071E3F /* Development */,
+				D1B00F5E09A00FDD00071E3F /* Deployment */,
+				D1B00F5F09A00FDD00071E3F /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		D1C25C1709D061B500455690 /* Build configuration list for PBXAggregateTarget "WH2 complete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C25C1809D061B500455690 /* Development */,
+				D1C25C1909D061B500455690 /* Deployment */,
+				D1C25C1A09D061B500455690 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		D1E9A22F09CDAA1800E53766 /* Build configuration list for PBXNativeTarget "WormHole2(AU)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1E9A23009CDAA1800E53766 /* Development */,
+				D1E9A23109CDAA1800E53766 /* Deployment */,
+				D1E9A23209CDAA1800E53766 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
