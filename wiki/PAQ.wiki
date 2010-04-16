@@ -6,11 +6,10 @@ Q. Does WH2 run on intel-macs?
 A. yes. Please download the latest version to get support for intel macs. 
 
 Q. WH2 doesn't show up in (add windows vst host here)...?
-A. It seems this is caused by some missing DLLs on windows installations. Wormhole2.0 used quite a few. Starting from v2.0.2 Wormhole2 only relies on two dlls: wsock32.dll and mmsystem.dll which are very important for many applications. Please download the latest version of Wormhole2 from http://plasq.com/downloads
+A. It seems this is caused by some missing DLLs on windows installations. Wormhole2.0 used quite a few. Starting from v2.0.2 Wormhole2 only relies on two dlls: wsock32.dll and mmsystem.dll which are very important for many applications. Please download the latest version of Wormhole2 from here.
 
 Q. WH2 does not show up on OSX 10.3...?
-A. Please download version 2.0.3 or later for mac from here:
-http://plasq.com/downloads
+A. Please download version 2.0.3 or later for mac from here.
 
 Q. Why can't I make a connection?
 A1. Before any connection can be made, the Wormhole2 channel needs to be given a name. This is necessary for the connection negotiation inside Wormhole2.
