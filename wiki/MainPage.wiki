@@ -19,8 +19,7 @@ Features:
 
 Pre-emptively Answered Questions:
 
-http://plasq.com/wormhole/paq
-
+http://code.google.com/p/wormhole2/wiki/PAQ
 
 Wormhole2 was original created by [http://plasq.com/wormhole plasq.com].
 
