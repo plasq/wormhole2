@@ -12,12 +12,6 @@ Q. WH2 does not show up on OSX 10.3...?
 A. Please download version 2.0.3 or later for mac from here:
 http://plasq.com/downloads
 
-Q. How come my serial doesn't work?
-A. Please check your serial. If it doesn't start with WRM2, it's not a Wormhole2 serial, but probably an apulSoft WormHole serial (starting with WRMH). The other common serial problem is additional characters copy&pasted with the ID / serial. Make sure you only copy&paste the relevant characters and no <space> or <return> character with them. The most safe way probably is typing on the keyboard.
-
-Q. Does Wormhole2 use internet authorization (like Wormhole v1 did)?
-A. No. You don't need to connect a machine to the web for WH2.
-
 Q. Why can't I make a connection?
 A1. Before any connection can be made, the Wormhole2 channel needs to be given a name. This is necessary for the connection negotiation inside Wormhole2.
 A2. The network might not be set up right. If any other network sercive like sharing files work, you are all set for WH2. What is important is that your network is a LAN and all the machines need to be on the same subnet (their IP addresses need to start with the same 2/3 numbers, depending on your subnet mask).
