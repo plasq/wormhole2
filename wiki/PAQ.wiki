@@ -2,10 +2,14 @@
 
 = Details =
 
-Q. Does WH2 run on intel-macs?
-A. yes. Please download the latest version to get support for intel macs. 
+*Q. Does WH2 run on intel-macs?*
 
-Q. WH2 doesn't show up in (add windows vst host here)...?
+A. yes. Please download the latest version to get support for intel macs.
+
+----
+
+*Q. WH2 doesn't show up in (add windows vst host here)...?*
+
 A. It seems this is caused by some missing DLLs on windows installations. Wormhole2.0 used quite a few. Starting from v2.0.2 Wormhole2 only relies on two dlls: wsock32.dll and mmsystem.dll which are very important for many applications. Please download the latest version of Wormhole2 from here.
 
 Q. WH2 does not show up on OSX 10.3...?
