@@ -1,10 +1,9 @@
-#summary Wormhole2 PAQ (Pre-emptively Answered Questions)
 
-= Details =
+Wormhole2 PAQ (Pre-emptively Answered Questions)
 
 *Q. Does WH2 run on intel-macs?*
 
-A. yes. Please download the latest version to get support for intel macs.
+A. Yes. Please download the latest version to get support for intel macs.
 
 ----
 
@@ -24,7 +23,7 @@ A. Please download version 2.0.3 or later for mac from here.
 
 A1. Before any connection can be made, the Wormhole2 channel needs to be given a name. This is necessary for the connection negotiation inside Wormhole2.
 
-A2. The network might not be set up right. If any other network sercive like sharing files work, you are all set for WH2. What is important is that your network is a LAN and all the machines need to be on the same subnet (their IP addresses need to start with the same 2/3 numbers, depending on your subnet mask).
+A2. The network might not be set up right. If any other network service like sharing files work, you are all set for WH2. What is important is that your network is a LAN and all the machines need to be on the same subnet (their IP addresses need to start with the same 2/3 numbers, depending on your subnet mask).
 
 A3. Some network device (like a firewall) might be blocking the WH2 packets. In that case, please find out what type of firewall you are running and search the web for how to open ports 48100-48200 in that firewall.
 
@@ -44,7 +43,7 @@ A. Yes, that is possible as every modern operating system has a network loopback
 
 *Q. Can I send midi over the network with Wormhole2?*
 
-A. No, if you need to do this crossplatform, please check out MidiOverLanCP. For mac, only, get Tiger and use the built-in network midi feature.
+A. No, if you need to do this cross-platform, please check out MidiOverLanCP. For mac, only, get Tiger and use the built-in network midi feature.
 
 ----
 
@@ -74,7 +73,7 @@ A. If you have a resource saving host like Logic or DP4.5+, plugins which are no
 
 *Q. Why is there a gap in the beginning of the audio when logic cycles a section?*
 
-A. Wormhole2 always tells the hosts it has 32768 samples latency (unless the latency fader is on zero). This is because most hosts cannot adapt to dynamical changing plugin latencies and that's exactely what WH2 needs. So WH2 has to always go for the max and make up for the rest by itself. There is a problem in Logic with the loop mode & latency compensation. Obviously hosts need to send audio in advance to make up for latency, however logic fails to do that at the end of the cycle. Instead of sending the beginning of the loop (the real future audio) it sends silence and that's why you get a gap of 32000 samples with logics cycle
+A. Wormhole2 always tells the hosts it has 32768 samples latency (unless the latency fader is on zero). This is because most hosts cannot adapt to dynamical changing plugin latencies and that's exactly what WH2 needs. So WH2 has to always go for the max and make up for the rest by itself. There is a problem in Logic with the loop mode & latency compensation. Obviously hosts need to send audio in advance to make up for latency, however logic fails to do that at the end of the cycle. Instead of sending the beginning of the loop (the real future audio) it sends silence and that's why you get a gap of 32000 samples with logics cycle
 
 ----
 
