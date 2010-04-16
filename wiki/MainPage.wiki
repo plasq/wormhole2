@@ -37,13 +37,13 @@ Wormhole2 lets you route audio via a network, between any computers you've got h
 
 ===Help!===
 
-Want more info? 
+*Want more info?*
 
-Check out the manual: [http://plasq.com/pics/wormhole/Wormhole2manual.pdf PDF]
-And the [http://code.google.com/p/wormhole2/wiki/PAQ PAQ: Pre-emptively Answered Questions:]
+Check out the manual: [http://plasq.com/pics/wormhole/Wormhole2manual.pdf Download PDF Manual]
+And the [http://code.google.com/p/wormhole2/wiki/PAQ PAQ: Pre-emptively Answered Questions]
 
 
-Please download Wormhole2 here: http://code.google.com/p/wormhole2/downloads/list
+And you may download Wormhole2 here: http://code.google.com/p/wormhole2/downloads/list
 
 
 [http://plasq.com/pics/wormhole/wh2manual-sample.jpg]
