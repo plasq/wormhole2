@@ -7,7 +7,7 @@ Audio plugin to transfer realtime-audio over a network
 
 Wormhole2 lets you route audio via a network, between any computers you've got handy (Mac or PC). Offload CPU intensive plugins to another machine, send audio via airport to the other side of a campus or in performance on stage sharing audio with the band. Lots of possibilities!
 
-==Features:==
+===Features:===
 
  * Audio Unit and VST plugin for Mac OS X and VST for Windows
  * Transmits audio over UDP
@@ -18,7 +18,7 @@ Wormhole2 lets you route audio via a network, between any computers you've got h
  * Can be used on a single machine to send audio between applications or to send audio between multiple computers.
 
 
-==System Requirements:==
+===System Requirements:===
 
 *Mac:*
 
@@ -35,18 +35,19 @@ Wormhole2 lets you route audio via a network, between any computers you've got h
  * A working network connection 
 
 
-
-Pre-emptively Answered Questions:
-
+*Pre-emptively Answered Questions:*
 http://code.google.com/p/wormhole2/wiki/PAQ
 
-Wormhole2 was original created by [http://plasq.com plasq.com].
 
 Please download here: http://code.google.com/p/wormhole2/downloads/list
 
 
+[http://plasq.com/pics/wormhole/wh2manual-sample.jpg]
+
+
 ----
 
+Wormhole2 was original created by [http://plasq.com plasq.com].
 
 ===For Programmers Only:===
 
