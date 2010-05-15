@@ -3,7 +3,7 @@
 
 2.0.6 Update October 2007
 
-    * Opensourced
+    * Open sourced
 
 2.0.4 Update 3rd April 2006
 
